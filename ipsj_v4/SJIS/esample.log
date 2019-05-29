@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2019.1.8)  9 MAY 2019 16:46
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2019.1.8)  29 MAY 2019 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -46,7 +46,7 @@ firstoftwo \else \expandafter \@secondoftwo \fi
 
 \@currext ->cls
 
-\opt@ipsj.cls ->english,preprint,JIP
+\opt@ipsj.cls ->english,preprint,JIP,technote
 
 \@ifstar #1->\@ifnextchar *{\@firstoftwo {#1}}
 #1<-\@xprocess@ptions 
@@ -122,18 +122,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->Proof
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,Proof,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,Proof,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,Proof,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,Proof,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -162,18 +162,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->LAYOUT
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,LAYOUT,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,LAYOUT,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,LAYOUT,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,LAYOUT,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -202,18 +202,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->submit
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,submit,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,submit,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,submit,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,submit,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -242,18 +242,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->DAM
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,DAM,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,DAM,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,DAM,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,DAM,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -282,15 +282,15 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->english
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,english,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,english,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,english,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,english,->
 #1<-
@@ -363,20 +363,60 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->technote
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,technote,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,technote,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,technote,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,technote,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP
 
-\in@false ->\let \ifin@ \iffalse 
+\in@true ->\let \ifin@ \iftrue 
+
+\@use@ption ->\@expandtwoargs \@removeelement \CurrentOption \@unusedoptionlist
+ \@unusedoptionlist \csname ds@\CurrentOption \endcsname 
+
+\@expandtwoargs #1#2#3->\edef \reserved@a {\noexpand #1{#2}{#3}}\reserved@a 
+#1<-\@removeelement 
+#2<-\CurrentOption 
+#3<-\@unusedoptionlist 
+
+\CurrentOption ->technote
+
+\@unusedoptionlist ->
+
+\reserved@a ->\@removeelement {technote}{}
+
+\@removeelement #1#2#3->\def \reserved@a ##1,#1,##2\reserved@a {##1,##2\reserve
+d@b }\def \reserved@b ##1,\reserved@b ##2\reserved@b {\ifx ,##1\@empty \else ##
+1\fi }\edef #3{\expandafter \reserved@b \reserved@a ,#2,\reserved@b ,#1,\reserv
+ed@a }
+#1<-technote
+#2<-
+#3<-\@unusedoptionlist 
+
+\reserved@a #1,technote,#2\reserved@a ->#1,#2\reserved@b 
+#1<-,,\reserved@b 
+#2<-
+
+\reserved@b #1,\reserved@b #2\reserved@b ->\ifx ,#1\@empty \else #1\fi 
+#1<-,
+#2<-,
+
+\@empty ->
+
+\CurrentOption ->technote
+
+\ds@technote ->\DS@technotetrue \def \@Mtype {technote}
+
+\DS@technotetrue ->\let \ifDS@technote \iftrue 
+
+\CurrentOption ->technote
 
 \@iforloop #1,#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
@@ -402,18 +442,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->sigrecommended
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,sigrecommended,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,sigrecommended,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,sigrecommended,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,sigrecommended,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -441,18 +481,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->invited
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,invited,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,invited,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,invited,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,invited,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -480,18 +520,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->PRO
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,PRO,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,PRO,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,PRO,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,PRO,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -519,18 +559,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->ACS
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,ACS,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,ACS,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,ACS,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,ACS,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -558,18 +598,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->TOD
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,TOD,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,TOD,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,TOD,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,TOD,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -597,18 +637,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->TOM
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,TOM,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,TOM,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,TOM,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,TOM,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -636,18 +676,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->CDS
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,CDS,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,CDS,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,CDS,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,CDS,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -675,18 +715,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->DC
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,DC,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,DC,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,DC,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,DC,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -714,18 +754,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->DCON
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,DCON,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,DCON,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,DCON,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,DCON,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -753,18 +793,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->CVA
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,CVA,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,CVA,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,CVA,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,CVA,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -792,18 +832,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->TBIO
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,TBIO,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,TBIO,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,TBIO,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,TBIO,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -831,18 +871,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->SLDM
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,SLDM,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,SLDM,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,SLDM,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,SLDM,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -870,15 +910,15 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->JIP
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,JIP,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,JIP,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,JIP,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,JIP,->
 #1<-,english,preprint
@@ -953,18 +993,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->Data
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,Data,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,Data,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,Data,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,Data,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -991,18 +1031,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->Survey
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,Survey,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,Survey,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,Survey,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,Survey,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1029,18 +1069,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->Research
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,Research,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,Research,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,Research,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,Research,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1067,18 +1107,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->Short
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,Short,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,Short,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,Short,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,Short,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1105,18 +1145,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->abstract
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,abstract,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,abstract,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,abstract,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,abstract,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1143,18 +1183,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->systems
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,systems,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,systems,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,systems,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,systems,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1181,18 +1221,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->services
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,services,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,services,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,services,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,services,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1219,18 +1259,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->devices
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,devices,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,devices,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,devices,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,devices,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1257,18 +1297,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->preface
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,preface,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,preface,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,preface,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,preface,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1295,18 +1335,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->draft
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,draft,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,draft,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,draft,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,draft,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1333,18 +1373,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->OT
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,OT,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,OT,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,OT,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,OT,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1370,18 +1410,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->techrep
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,techrep,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,techrep,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,techrep,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,techrep,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1407,18 +1447,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->noauthor
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,noauthor,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,noauthor,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,noauthor,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,noauthor,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1444,18 +1484,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->system
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,system,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,system,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,system,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,system,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1481,18 +1521,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->Express
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,Express,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,Express,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,Express,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,Express,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1518,18 +1558,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->Practice
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,Practice,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,Practice,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,Practice,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,Practice,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1555,18 +1595,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->Content
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,Content,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,Content,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,Content,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,Content,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1592,18 +1632,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->TCE
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,TCE,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,TCE,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,TCE,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,TCE,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1629,18 +1669,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->invitedshort
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,invitedshort,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,invitedshort,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,invitedshort,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,invitedshort,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1666,18 +1706,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->recommendedshort
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,recommendedshort,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,recommendedshort,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,recommendedshort,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,recommendedshort,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1702,18 +1742,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->recommendedresearch
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,recommendedresearch,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,recommendedresearch,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,recommendedresearch,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,recommendedresearch,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1738,18 +1778,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->recommendedpractice
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,recommendedpractice,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,recommendedpractice,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,recommendedpractice,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,recommendedpractice,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1774,18 +1814,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->recommendedcontent
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,recommendedcontent,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,recommendedcontent,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,recommendedcontent,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,recommendedcontent,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1810,18 +1850,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->recommendeddevices
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,recommendeddevices,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,recommendeddevices,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,recommendeddevices,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,recommendeddevices,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1845,15 +1885,15 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->preprint
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,preprint,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,preprint,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,preprint,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,preprint,->
 #1<-,english
@@ -1948,18 +1988,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->a4paper
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,a4paper,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,a4paper,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,a4paper,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,a4paper,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -1983,18 +2023,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->a5paper
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,a5paper,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,a5paper,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,a5paper,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,a5paper,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2018,18 +2058,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->b4paper
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,b4paper,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,b4paper,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,b4paper,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,b4paper,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2053,18 +2093,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->b5paper
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,b5paper,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,b5paper,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,b5paper,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,b5paper,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2088,18 +2128,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->a4j
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,a4j,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,a4j,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,a4j,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,a4j,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2123,18 +2163,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->a5j
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,a5j,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,a5j,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,a5j,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,a5j,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2158,18 +2198,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->b4j
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,b4j,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,b4j,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,b4j,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,b4j,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2193,18 +2233,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->b5j
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,b5j,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,b5j,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,b5j,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,b5j,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2228,18 +2268,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->a4p
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,a4p,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,a4p,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,a4p,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,a4p,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2263,18 +2303,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->a5p
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,a5p,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,a5p,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,a5p,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,a5p,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2298,18 +2338,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->b4p
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,b4p,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,b4p,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,b4p,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,b4p,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2333,18 +2373,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->b5p
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,b5p,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,b5p,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,b5p,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,b5p,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2368,18 +2408,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->10pt
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,10pt,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,10pt,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,10pt,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,10pt,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2403,18 +2443,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->11pt
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,11pt,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,11pt,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,11pt,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,11pt,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2437,18 +2477,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->12pt
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,12pt,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,12pt,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,12pt,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,12pt,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2471,18 +2511,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->landscape
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,landscape,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,landscape,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,landscape,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,landscape,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2505,18 +2545,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->mentuke
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,mentuke,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,mentuke,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,mentuke,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,mentuke,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2539,18 +2579,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->tate
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,tate,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,tate,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,tate,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,tate,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2573,18 +2613,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->oneside
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,oneside,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,oneside,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,oneside,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,oneside,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2607,18 +2647,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->twoside
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,twoside,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,twoside,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,twoside,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,twoside,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2641,18 +2681,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->onecolumn
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,onecolumn,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,onecolumn,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,onecolumn,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,onecolumn,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2675,18 +2715,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->twocolumn
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,twocolumn,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,twocolumn,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,twocolumn,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,twocolumn,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2709,18 +2749,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->titlepage
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,titlepage,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,titlepage,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,titlepage,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,titlepage,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2742,18 +2782,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->notitlepage
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,notitlepage,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,notitlepage,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,notitlepage,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,notitlepage,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2775,18 +2815,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->openright
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,openright,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,openright,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,openright,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,openright,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2808,18 +2848,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->openany
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,openany,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,openany,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,openany,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,openany,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2841,18 +2881,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->leqno
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,leqno,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,leqno,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,leqno,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,leqno,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2874,18 +2914,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->fleqn
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,fleqn,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,fleqn,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,fleqn,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,fleqn,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2907,18 +2947,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->openbib
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,openbib,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,openbib,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,openbib,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,openbib,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2940,18 +2980,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->disablejfam
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,disablejfam,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,disablejfam,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,disablejfam,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,disablejfam,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -2973,18 +3013,18 @@ fin@ \@use@ption \expandafter \let \csname ds@\CurrentOption \endcsname \@empty
 
 \CurrentOption ->final
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\reserved@a ->\in@ {,final,}{,english,preprint,JIP,}
+\reserved@a ->\in@ {,final,}{,english,preprint,JIP,technote,}
 
 \in@ #1#2->\begingroup \def \in@@ ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1}\e
 def \in@@ {\the \toks@ }\expandafter \endgroup \ifx \in@@ \@empty \in@false \el
 se \in@true \fi 
 #1<-,final,
-#2<-,english,preprint,JIP,
+#2<-,english,preprint,JIP,technote,
 
 \in@@ #1,final,->
-#1<-,english,preprint,JIP,{}{}
+#1<-,english,preprint,JIP,technote,{}{}
 
 \in@false ->\let \ifin@ \iffalse 
 
@@ -3018,15 +3058,15 @@ fx \@fortmp \@empty \else \expandafter \@forloop #2,\@nil ,\@nil \@@ #1{#3}\fi
 #2<-\@curroptions 
 #3<-\@ifundefined {ds@\CurrentOption }{\@use@ption \default@ds }\@use@ption 
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
-\@curroptions ->english,preprint,JIP
+\@curroptions ->english,preprint,JIP,technote
 
 \@forloop #1,#2,#3\@@ #4#5->\def #4{#1}\ifx #4\@nnil \else #5\def #4{#2}\ifx #4
 \@nnil \else #5\@iforloop #3\@@ #4{#5}\fi \fi 
 #1<-english
 #2<-preprint
-#3<-JIP,\@nil ,\@nil 
+#3<-JIP,technote,\@nil ,\@nil 
 #4<-\CurrentOption 
 #5<-\@ifundefined {ds@\CurrentOption }{\@use@ption \default@ds }\@use@ption 
 
@@ -3125,7 +3165,7 @@ ed@a }
 \@iforloop #1,#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
 #1<-JIP
-#2<-\@nil ,\@nil 
+#2<-technote,\@nil ,\@nil 
 #3<-\CurrentOption 
 #4<-\@ifundefined {ds@\CurrentOption }{\@use@ption \default@ds }\@use@ption 
 
@@ -3174,6 +3214,59 @@ ed@a }
 \CurrentOption ->JIP
 
 \ds@JIP ->
+
+\@iforloop #1,#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else
+ #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
+#1<-technote
+#2<-\@nil ,\@nil 
+#3<-\CurrentOption 
+#4<-\@ifundefined {ds@\CurrentOption }{\@use@ption \default@ds }\@use@ption 
+
+\@ifundefined #1->\expandafter \ifx \csname #1\endcsname \relax \expandafter \@
+firstoftwo \else \expandafter \@secondoftwo \fi 
+#1<-ds@\CurrentOption 
+
+\CurrentOption ->technote
+
+\@secondoftwo #1#2->#2
+#1<-\@use@ption \default@ds 
+#2<-\@use@ption 
+
+\@use@ption ->\@expandtwoargs \@removeelement \CurrentOption \@unusedoptionlist
+ \@unusedoptionlist \csname ds@\CurrentOption \endcsname 
+
+\@expandtwoargs #1#2#3->\edef \reserved@a {\noexpand #1{#2}{#3}}\reserved@a 
+#1<-\@removeelement 
+#2<-\CurrentOption 
+#3<-\@unusedoptionlist 
+
+\CurrentOption ->technote
+
+\@unusedoptionlist ->
+
+\reserved@a ->\@removeelement {technote}{}
+
+\@removeelement #1#2#3->\def \reserved@a ##1,#1,##2\reserved@a {##1,##2\reserve
+d@b }\def \reserved@b ##1,\reserved@b ##2\reserved@b {\ifx ,##1\@empty \else ##
+1\fi }\edef #3{\expandafter \reserved@b \reserved@a ,#2,\reserved@b ,#1,\reserv
+ed@a }
+#1<-technote
+#2<-
+#3<-\@unusedoptionlist 
+
+\reserved@a #1,technote,#2\reserved@a ->#1,#2\reserved@b 
+#1<-,,\reserved@b 
+#2<-
+
+\reserved@b #1,\reserved@b #2\reserved@b ->\ifx ,#1\@empty \else #1\fi 
+#1<-,
+#2<-,
+
+\@empty ->
+
+\CurrentOption ->technote
+
+\ds@technote ->
 
 \@iforloop #1,#2\@@ #3#4->\def #3{#1}\ifx #3\@nnil \expandafter \@fornoop \else
  #4\relax \expandafter \@iforloop \fi #2\@@ #3{#4}
@@ -4344,243 +4437,257 @@ LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
 (Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
 LaTeX Info: Redefining \not on input line 1043.
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )
 (./esample.aux)
 \openout1 = `esample.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 32.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 32.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 33.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 33.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 32.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 33.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 32.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 33.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 32.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 33.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 (I search kanjifont definition file: . . ) (I search font definition file: . .
 . . . . . )
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 33.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 
 LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 46.
+(Font)              using `JT1/mc/m/n' instead on input line 51.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 46.
+(Font)              using `JY1/mc/m/n' instead on input line 51.
 
 
 LaTeX Font Warning: Font shape `JT1/mc/bx/it' undefined
-(Font)              using `JT1/mc/bx/n' instead on input line 46.
+(Font)              using `JT1/mc/bx/n' instead on input line 51.
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8.5373> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 46.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 51.
 
 LaTeX Font Warning: Font shape `JY1/mc/bx/it' undefined
-(Font)              using `JY1/mc/bx/n' instead on input line 46.
+(Font)              using `JY1/mc/bx/n' instead on input line 51.
 
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8.5373> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 46.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 51.
 (I search kanjifont definition file: . . ) (I search font definition file: . .
 . . . . . )
 LaTeX Font Info:    Font shape `JT1/mc/bx/it' in size <8.5373> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 46.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `JY1/mc/bx/it' in size <8.5373> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 46.
-LaTeX Font Info:    Try loading font information for OT1+txss on input line 46.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 51.
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 51.
 
  (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/bx/it' in size <8.5373> not available
-(Font)              Font shape `OT1/txss/b/sl' tried instead on input line 46.
+(Font)              Font shape `OT1/txss/b/sl' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OT1/txss/b/sl' will be
-(Font)              scaled to size 8.1104pt on input line 46.
+(Font)              scaled to size 8.1104pt on input line 51.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12.80594> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 56.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12.80594> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 56.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <19.92035> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 56.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <19.92035> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 56.
-LaTeX Font Info:    Calculating math sizes for size <9.25> on input line 56.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 56.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 64.
+LaTeX Font Info:    Calculating math sizes for size <9.25> on input line 64.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 64.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 56.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 64.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 56.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 64.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 56.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 64.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 
 LaTeX Font Warning: Font shape `JT1/mc/m/sc' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 56.
+(Font)              using `JT1/mc/m/n' instead on input line 64.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/sc' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 56.
+(Font)              using `JY1/mc/m/n' instead on input line 64.
 
-LaTeX Font Info:    Calculating math sizes for size <12.56738> on input line 56
+LaTeX Font Info:    Calculating math sizes for size <12.56738> on input line 64
 .
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 7.02292pt on input line 56.
+(Font)              scaled to size 7.02292pt on input line 64.
+LaTeX Font Info:    Calculating math sizes for size <7.82585> on input line 64.
+
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <11.82813> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 59.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <11.82813> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 59.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 67.
 
 LaTeX Font Warning: Font shape `JT1/gt/m/it' undefined
-(Font)              using `JT1/gt/m/n' instead on input line 60.
+(Font)              using `JT1/gt/m/n' instead on input line 68.
 
 
 LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
-(Font)              using `JY1/gt/m/n' instead on input line 60.
+(Font)              using `JY1/gt/m/n' instead on input line 68.
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9.25> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 69.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 76.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9.25> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 69.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 76.
 LaTeX Font Info:    Font shape `JT1/mc/bx/it' in size <9.25> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 86.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `JY1/mc/bx/it' in size <9.25> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 86.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 8.78625pt on input line 89.
+(Font)              scaled to size 8.78625pt on input line 96.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9.24873> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 89.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9.24873> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 89.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <9.24873> not available
-(Font)              Font shape `OT1/txss/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
-(Font)              scaled to size 8.78625pt on input line 89.
+(Font)              scaled to size 8.78625pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 7.43452pt on input line 89.
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 89.
+(Font)              scaled to size 7.43452pt on input line 96.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 96.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <7.11441> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 89.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 96.
  [1
 
 
 ]
-File: img/example001.eps Graphic file (type eps)
-
-<img/example001.eps>
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7.82584> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 108.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7.82584> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 108.
 File: img/explainofMS.eps Graphic file (type eps)
- <img/explainofMS.eps>
+
+<img/explainofMS.eps>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7.82584> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 110.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7.82584> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 110.
+File: img/example001.eps Graphic file (type eps)
+ <img/example001.eps>
 File: img/2010all.eps Graphic file (type eps)
- <img/2010all.eps> [2]
+ <img/2010all.eps>
 File: img/frame2010-2018.eps Graphic file (type eps)
 
-<img/frame2010-2018.eps>
+<img/frame2010-2018.eps> [2]
 Missing character: There is no ^^e2 in font txr!
 Missing character: There is no ^^80 in font txr!
 Missing character: There is no ^^8b in font txr!
 Missing character: There is no ^^e2 in font txr!
 Missing character: There is no ^^80 in font txr!
 Missing character: There is no ^^8b in font txr!
+ (I search kanjifont definition file: . . )
 Missing character: There is no ^^e2 in font txr!
 Missing character: There is no ^^80 in font txr!
 Missing character: There is no ^^8b in font txr!
 Missing character: There is no ^^e2 in font txr!
 Missing character: There is no ^^80 in font txr!
 Missing character: There is no ^^8b in font txr!
+Missing character: There is no ^^c2 in font txr!
+Missing character: There is no ^^a0 in font txr!
+
+[3]
+
+LaTeX Warning: Reference `table2' on page 4 undefined on input line 233.
+
 Missing character: There is no ^^e2 in font txr!
 Missing character: There is no ^^80 in font txr!
-Missing character: There is no ^^8b in font txr!
+Missing character: There is no ^^93 in font txr!
 Missing character: There is no ^^e2 in font txr!
 Missing character: There is no ^^80 in font txr!
-Missing character: There is no ^^8b in font txr!
-Missing character: There is no ^^e2 in font txr!
-Missing character: There is no ^^80 in font txr!
-Missing character: There is no ^^8b in font txr!
-Missing character: There is no ^^e2 in font txr!
-Missing character: There is no ^^80 in font txr!
-Missing character: There is no ^^8b in font txr!
- [3]
-File: img/averageAFST.eps Graphic file (type eps)
- <img/averageAFST.eps> [4] (./esample.bbl
+Missing character: There is no ^^93 in font txr!
+(./esample.bbl
 LaTeX Font Info:    Calculating math sizes for size <7.82584> on input line 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--39
-\OT1/txr/m/n/7.82584 ment up-date,'' 2011, https://myemail.constantcontact.com/
-News-
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+\OT1/txr/m/n/7.82584 sity of Wisconsin-Extension, ``Com-mu-nity & eco-nomic de-
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--39
-\OT1/txr/m/n/7.82584 from-the-Center-for-Community---Economic-
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+\OT1/txr/m/n/7.82584 vel-op-ment up-date,'' 2011, $https : / / myemail . consta
+ntcontact . com /
  []
 
-) [5
 
-] (./esample.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+\OT1/txr/m/n/7.82584 News-[]from-[]the-[]Center-[]for-[]Community-[]-[]-[]Econo
+mic-[]Development .
+ []
+
+) [4] (./esample.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 2398 strings out of 493653
- 31686 string characters out of 6148875
- 89785 words of memory out of 5000000
- 5957 multiletter control sequences out of 15000+600000
- 59623 words of font info for 188 fonts, out of 8000000 for 9000
+ 2486 strings out of 493653
+ 32815 string characters out of 6148875
+ 90653 words of memory out of 5000000
+ 6039 multiletter control sequences out of 15000+600000
+ 64243 words of font info for 204 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 30i,10n,22p,987b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,10n,22p,1189b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on esample.dvi (5 pages, 31408 bytes).
+Output written on esample.dvi (4 pages, 27716 bytes).

@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex esample"] 1557387960 "esample.aux" "esample.bbl" "esample" 1557388019
+["bibtex esample"] 1559112685 "esample.aux" "esample.bbl" "esample" 1559112689
   "/usr/local/texlive/2017/texmf-dist/bibtex/bst/IEEEtran/IEEEtran.bst" 1480098433 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "esample.aux" 1557388018 1052 d3f681240c19152618bdddc91071b2f0 ""
-  "mining.bib" 1557388001 8778 b5c017cbf777afcccf5b81c0efa64231 ""
+  "esample.aux" 1559112686 1229 07386a67bc81b32d88365ed73254f521 ""
+  "mining.bib" 1557389688 8778 b5c017cbf777afcccf5b81c0efa64231 ""
   (generated)
-  "esample.blg"
   "esample.bbl"
-["dvipdf"] 1557388018 "esample.dvi" "esample.pdf" "esample" 1557388019
-  "esample.dvi" 1557388018 31408 412c06f53ad1da6387ec785c93565d1c "latex"
+  "esample.blg"
+["dvipdf"] 1559112688 "esample.dvi" "esample.pdf" "esample" 1559112689
+  "esample.dvi" 1559112686 27716 6cf8bb4defa9f5168bf5fb5088f0cf1e "latex"
   (generated)
   "esample.pdf"
-["latex"] 1557388017 "esample.tex" "esample.dvi" "esample" 1557388019
+["latex"] 1559112685 "esample.tex" "esample.dvi" "esample" 1559112689
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1480098698 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm" 1480098698 1196 1be730212205a270378fba11a44765dc ""
@@ -38,6 +38,7 @@
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/txsya.tfm" 1480098718 972 2c9ffac4bbd20f91c01aaef9bf3f8710 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/txsyb.tfm" 1480098718 988 098ca7e8cc5647b9ac21b82dbdce1f01 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/txsyc.tfm" 1480098718 1084 75e807e9e71f7a312e4e1187dce5e93b ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/txtt.tfm" 1480098718 1200 1032be7d597a4dce33bcda3c08fc1be0 ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/base/latexsym.sty" 1480098821 2854 d9a09e80ec53a1710adc74c0e8300370 ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1480098830 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1480098830 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -68,18 +69,18 @@
   "/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsya.fd" 1480098841 310 cee07e4964749ccbc77d84fc49726a79 ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyb.fd" 1480098841 310 8c5467c8932c259af51b0f116c9734bd ""
   "/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyc.fd" 1480098841 310 4b5d6fe830337242ef847b3bff48ba21 ""
+  "/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty" 1480098842 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf" 1494087824 32646 eadc4ca26cdbe7105ac7c593aa8c4f72 ""
   "/usr/local/texlive/2017/texmf-var/web2c/eptex/platex.fmt" 1546925694 4345395 0c49284fa5bf4f012fb641c9c53fbd36 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "esample.aux" 1557388018 1052 d3f681240c19152618bdddc91071b2f0 ""
-  "esample.bbl" 1557387960 2439 67fb020bfe0152d7982bd16374146b58 "bibtex esample"
-  "esample.tex" 1557388014 30110 b1c9442d02d5daf5d0d2ef49fc49867b ""
-  "img/2010all.eps" 1556349959 229980 25174c50a637bc75182c7b46f47817d5 ""
-  "img/averageAFST.eps" 1556351580 49704 aa836d9b6ca75cae72aa23037850b625 ""
-  "img/example001.eps" 1557299195 21353 6ce7d5339fc21b0bbda0b14904eb77cd ""
-  "img/explainofMS.eps" 1557298166 30514 cda9ab1624c4c0359488846903a24ac7 ""
-  "img/frame2010-2018.eps" 1557302643 52231 a06d4daf663502457cabca08faa6a552 ""
-  "ipsj.cls" 1556259730 136173 edc2b78c657ed865834831a8cbffeb3f ""
+  "esample.aux" 1559112686 1229 07386a67bc81b32d88365ed73254f521 ""
+  "esample.bbl" 1559112685 1920 80e625c4f6c368c12b4f3f63311079bc "bibtex esample"
+  "esample.tex" 1559024371 30115 8fe6792b88a762752237e9448fd0c81f ""
+  "img/2010all.eps" 1557389688 229980 25174c50a637bc75182c7b46f47817d5 ""
+  "img/example001.eps" 1557389688 21353 6ce7d5339fc21b0bbda0b14904eb77cd ""
+  "img/explainofMS.eps" 1557389688 30514 cda9ab1624c4c0359488846903a24ac7 ""
+  "img/frame2010-2018.eps" 1557389688 52231 a06d4daf663502457cabca08faa6a552 ""
+  "ipsj.cls" 1557389688 136173 edc2b78c657ed865834831a8cbffeb3f ""
   (generated)
   "esample.dvi"
   "esample.aux"
