@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex esample"] 1559112685 "esample.aux" "esample.bbl" "esample" 1559112689
+["bibtex esample"] 1559753683 "esample.aux" "esample.bbl" "esample" 1559754024
   "/usr/local/texlive/2017/texmf-dist/bibtex/bst/IEEEtran/IEEEtran.bst" 1480098433 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "esample.aux" 1559112686 1229 07386a67bc81b32d88365ed73254f521 ""
-  "mining.bib" 1557389688 8778 b5c017cbf777afcccf5b81c0efa64231 ""
+  "esample.aux" 1559753686 1594 24f0fc06a1c404f4a380ce7edf731247 ""
+  "mining.bib" 1559752902 10571 dd11c6a873a9ca5d23b65a7ae4027c61 ""
   (generated)
-  "esample.bbl"
   "esample.blg"
-["dvipdf"] 1559112688 "esample.dvi" "esample.pdf" "esample" 1559112689
-  "esample.dvi" 1559112686 27716 6cf8bb4defa9f5168bf5fb5088f0cf1e "latex"
+  "esample.bbl"
+["dvipdf"] 1559753686 "esample.dvi" "esample.pdf" "esample" 1559754024
+  "esample.dvi" 1559753686 29504 20aeabb41f7bb9f9b7b2c599a367f49e "latex"
   (generated)
   "esample.pdf"
-["latex"] 1559112685 "esample.tex" "esample.dvi" "esample" 1559112689
+["latex"] 1559753685 "esample.tex" "esample.dvi" "esample" 1559754024
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1480098698 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm" 1480098698 1196 1be730212205a270378fba11a44765dc ""
@@ -73,15 +73,16 @@
   "/usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf" 1494087824 32646 eadc4ca26cdbe7105ac7c593aa8c4f72 ""
   "/usr/local/texlive/2017/texmf-var/web2c/eptex/platex.fmt" 1546925694 4345395 0c49284fa5bf4f012fb641c9c53fbd36 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "esample.aux" 1559112686 1229 07386a67bc81b32d88365ed73254f521 ""
-  "esample.bbl" 1559112685 1920 80e625c4f6c368c12b4f3f63311079bc "bibtex esample"
-  "esample.tex" 1559024371 30115 8fe6792b88a762752237e9448fd0c81f ""
-  "img/2010all.eps" 1557389688 229980 25174c50a637bc75182c7b46f47817d5 ""
-  "img/example001.eps" 1557389688 21353 6ce7d5339fc21b0bbda0b14904eb77cd ""
-  "img/explainofMS.eps" 1557389688 30514 cda9ab1624c4c0359488846903a24ac7 ""
-  "img/frame2010-2018.eps" 1557389688 52231 a06d4daf663502457cabca08faa6a552 ""
-  "ipsj.cls" 1557389688 136173 edc2b78c657ed865834831a8cbffeb3f ""
+  "esample.aux" 1559753686 1594 24f0fc06a1c404f4a380ce7edf731247 ""
+  "esample.bbl" 1559753683 3450 612a6de68a1bab005704c04828b6a413 "bibtex esample"
+  "esample.tex" 1559753694 26381 6b8de63b880aa8fd3c18d61532aca9b0 ""
+  "img/2010all.eps" 1559746273 275040 44c7e249edf36f398b57b035468b0932 ""
+  "img/averageAFST.eps" 1559749935 83624 5894e29486ca9b8111d548297c185a59 ""
+  "img/example001.eps" 1557935998 21353 6ce7d5339fc21b0bbda0b14904eb77cd ""
+  "img/explainofMS.eps" 1557935998 30514 cda9ab1624c4c0359488846903a24ac7 ""
+  "img/frame2010-2018.eps" 1559750090 100131 314b20266e993712333e7e03f19af1fa ""
+  "ipsj.cls" 1557935998 136173 edc2b78c657ed865834831a8cbffeb3f ""
   (generated)
   "esample.dvi"
-  "esample.aux"
   "esample.log"
+  "esample.aux"
