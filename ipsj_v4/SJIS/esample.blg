@@ -1,5 +1,5 @@
-This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2017)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: esample.aux
 The style file: IEEEtran.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -8,7 +8,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: mining.bib
--- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in communityeconomic
@@ -16,16 +16,16 @@ Warning--empty booktitle in msr2019challenge
 
 Done.
 You've used 4 entries,
-            4087 wiz_defined-function locations,
-            846 strings with 8275 characters,
-and the built_in function-call counts, 2850 in all, are:
+            4039 wiz_defined-function locations,
+            834 strings with 8192 characters,
+and the built_in function-call counts, 2837 in all, are:
 = -- 212
 > -- 68
 < -- 20
 + -- 36
 - -- 12
 * -- 147
-:= -- 433
+:= -- 432
 add.period$ -- 9
 call.type$ -- 4
 change.case$ -- 5
@@ -34,7 +34,7 @@ cite$ -- 6
 duplicate$ -- 204
 empty$ -- 238
 format.name$ -- 16
-if$ -- 645
+if$ -- 633
 int.to.chr$ -- 0
 int.to.str$ -- 4
 missing$ -- 36
@@ -56,5 +56,4 @@ warning$ -- 2
 while$ -- 12
 width$ -- 5
 write$ -- 57
-is.kanji.str$ -- 0
 (There were 2 warnings)
