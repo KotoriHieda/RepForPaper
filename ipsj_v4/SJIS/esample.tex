@@ -63,7 +63,9 @@ magnet, sticky, tag, user migration, OSS census
 \section{Introduction}
 The Pew Research Center (PRC)~\cite{communityeconomic} is the U.S. fact finder that provides information on social problems and demographic trends that shape the United States and the world. \emph{magnet states} are defined as states where a high percentage of the　population migrated from the outside, whereas sticky states have a high proportion of those living in the same state since birth. Nevada is a \emph{magnet states} because  86\% of the population migrated from other states. It is possible to find the movement of American citizens by studying this demographic trend.
 
-For software developers, understanding other developers’ interests are important as the popurality of developers have advantages. Many developers like to work with convenient and easy-to-use tools. To develop a project efficiently, developers must focus on long-term-projects. In this study, we focus on new and existing topics of Stack Overflow (SO). Inspired by previous studies~\cite{yamashita2016magnet}, we apply Magnet and Sticky metrics to the topics collected in SO. 
+For software developers, understanding other developers’ interests are important as the popurality of developers have advantages. Many developers like to work with convenient and easy-to-use tools. To develop a project efficiently, developers must focus on long-term-projects. 
+
+In this study, we focus on new and existing topics of Stack Overflow (SO). Inspired by previous studies~\cite{yamashita2016magnet}, we apply Magnet and Sticky metrics to the topics collected in SO. 
 The magnet metric is the number of new developers attracted to a topic and Sticky metric is the number of existing developers who stay with the topic. 
 We examined the values of tags ``magnets'' and tags ``sticky'' by classifying them to the tags \emph{programming language}, \emph{framework}, and \emph{environment}. We also compared the news and history of software  companies and web services. If changes in their characteristics are discovered, we examine factors responsible for the changes based on their magnet values and sticky values. 
 
@@ -77,7 +79,7 @@ We can identify obsolete tags. When the tags move quadrant, we find that somethi
 
 
 \section{Definition of Magnet and Sticky} \label{magnet}
-This section describes how we measure the appeal and adhesion of users on different topics. Following the Pew Research Center (PRC) definition, we use the Magnet and Sticky metrics to illustrate the migratory trends of the U.S. citizens. The PRC defines magnet states as states where a large proportion of adults are from other states. From the magnet metric, the proportion of adults residing in the magnet states were not born in the state. PRC defines the sticky state as the state where a large proportion of adults born there continue to live in the state. Thus, the sticky metric for the state is the proportion of adult residents born in the state. These definitions are good for a population study where a single adult can only occupy one state at a time. However, the definition is inapplicable to the topics discussed by the SO users as users can ask or answer questions on several topics at the same time. Therefore, we expand new definitions for SO topics~\ref{fig:example2}
+This section describes how we measure the appeal and adhesion of users on different topics. Following the Pew Research Center (PRC) definition, we use the Magnet and Sticky metrics to illustrate the migratory trends of the U.S. citizens. The PRC defines magnet states as states where a large proportion of adults are from other states. From the magnet metric, the proportion of adults residing in the magnet states were not born in the state. PRC defines the sticky state as the state where a large proportion of adults born there continue to live in the state. Thus, the sticky metric for the state is the proportion of adult residents born in the state. These definitions are good for a population study where a single adult can only occupy one state at a time. However, the definition is inapplicable to the topics discussed by the SO users as users can ask or answer questions on several topics at the same time. Therefore, we expand new definitions for SO topics.
 
 % This section describes how we measure the appeal and adhesion of users on different topics on Stack Overflow in this study, we use the Magnet and Sticky metrics defined by the Pew Research Center for illustrating the migratory trends of citizens in the United States.
 
@@ -98,12 +100,12 @@ SO contents are questions and answers to the questions and comments~\cite{liu201
 
 \noindent
 \textbf{Example (Calculating magnet and sticky values).}
-To calculate magnet and sticky values of topics that belong to a major category, we use a total of six questions (a, b, c, d, e, f) and seven users (A, B, C, D, E, F, G); the Last Activity Date of question a, b, c was in 2017, and question d, e, f in 2018. The registration date of user A, B, C, D was in 2017, and the registration date of user E, F, G was in 2018~\cite{yamashita2016magnet}.
+To calculate magnet and sticky values of topics that belong to a major category, we use a total of six questions (a, b, c, d, e, f) and seven users (A, B, C, D, E, F, G); the Last Activity Date of question a, b, c was in 2017, and question d, e, f in 2018. The registration date of user A, B, C, D was in 2017, and the registration date of user E, F, G was in 2018~\cite{yamashita2016magnet}  as shown in Figure ~\ref{fig:example2}.
 
 \begin{figure}[t]
  \centering
  \includegraphics[width=.75\hsize]{img/explainofMS.eps}  
- \caption{-Example of Magnet and Sticky values definition} 
+ \caption{Example of Magnet and Sticky values definition} 
  \label{fig:example2} 
 \end{figure}
 
@@ -119,7 +121,7 @@ We merge subjects (i.e., tags) that belong to analogous subjects into one topic.
 \begin{figure}[t]
  \centering
  \includegraphics[width=0.80\hsize]{img/example001.eps}  
- \caption{-Example of the merge of tags belonging to analogous subjects} 
+ \caption{Example of the merge of tags belonging to analogous subjects} 
  \label{fig:example1} 
 \end{figure}
 
@@ -140,7 +142,7 @@ Figure~\ref{fig:example1} shows that question a has tag 1.0, question b has tag 
 
 
 \section{Dataset}
-We analyze the SO dataset (SOTorrent) provided by Sebastian Baltes et al.~\cite{msr2019challenge}. SOTorrent is an open dataset based on the official SO data dump. ``SOTorrent provides access to the version history of SO content at the level of whole posts and individual text or code blocks.''
+We analyze the SO dataset (SOTorrent) provided by Sebastian Baltes et al.~\cite{msr2019challenge}. SOTorrent is an open dataset based on the official SO data dump and provides access to the version history of SO content at the level of whole posts and individual text or code blocks.
 
 The dataset consists of 20 different tables stored in data on official SO data dump and data extracted from the original official SO data dump.
 
@@ -163,14 +165,14 @@ In this section, we provide answers to these questions:
 
 \noindent
 \textbf{Approach.}
-We calculated magnet and sticky values as defined in Section\ref{magnet}. We plot the magnet value on the vertical axis and the sticky value on the horizontal axis. We classify the plotted points into four quadrants.\\
+We calculated magnet and sticky values as defined in Section~\ref{magnet}. We plot the magnet value on the vertical axis and the sticky value on the horizontal axis. We classify the plotted points into four quadrants.\\
 \textbf
 {Attractive:} Tags with a high magnet and sticky value. By understanding the tags, we can discover the interests of developers.\\
 \textbf{Fluctuating:} Tags with a higher magnet and lower sticky value. This tag attracts people, but it is short-term. Excellent developers will not continue to be disinterested.\\
 \textbf{Stagnant:} Tags with a lower magnet and higher sticky value. These tags are difficult to attract new users, but it can maintain existing users.\\
 \textbf{Terminal:} Tags with the lower magnet and lower sticky value. This tag can neither attract new users' developers nor keep them interested.
 
-The median of the magnet and sticky values for each year is used for the quadrant threshold because the median is unaffected by outliers. From the sticky value definition in Section\ref{magnet}, the sticky value depends on the number of tag users in a year and the following year. To answer RQ1, we got 9 years’ worth of sticky values based on the information on the number of tag users from 2009 to 2018. The sticky value must depend on the number of new tag users, but, if the number of new tag users in a year is too low, the sticky value will be too small. To remove noise, we fix thresholds for each topic When the magnet and sticky value is less than the threshold value, it is set to 0.
+The median of the magnet and sticky values for each year is used for the quadrant threshold because the median is unaffected by outliers. From the sticky value definition in Section~\ref{magnet}, the sticky value depends on the number of tag users in a year and the following year. To answer RQ1, we got 9 years’ worth of sticky values based on the information on the number of tag users from 2009 to 2018. The sticky value must depend on the number of new tag users, but, if the number of new tag users in a year is too low, the sticky value will be too small. To remove noise, we fix thresholds for each topic When the magnet and sticky value is less than the threshold value, it is set to 0.
 
 
 We did not analyze all the tags at once, but divided them into three categories for analysis. The selected categories and their contents are:
@@ -205,7 +207,7 @@ We chose these tags based on SO's survey of over 100,000 developers in 2018~\foo
 % \medskip
 
 \noindent \textbf{Results:}
-Figure~\ref{fig:2010} shows a quadrant plot of the magnet and sticky values ​​of the 2010 framework, programming language, and environmental tag\footnote{We choose the year 2010 because it is the first year for which yearly data of sticky value can be obtained.}, revealing that the magnet value is lower than the sticky. value. The results are similar to the findings of the PRC. For example, the U.S. citizens are likely to live in the same house than to change houses; it is easier for developers to continue developing the same content.
+Figure~\ref{fig:2010} shows a quadrant plot of the magnet and sticky values ​​of the 2010 framework, programming language, and environmental tag\footnote{We choose the year 2010 because it is the first year for which yearly data of sticky value can be obtained.}, revealing that the magnet value is lower than the sticky value. The results are similar to the findings of the PRC. For example, the U.S. citizens are likely to live in the same house than to change houses; it is easier for developers to continue developing the same content.
 
  % \emph{Stickyの方がmagnetより一般的な属性である。高いmagnet valueのタグは初心者でも使いやすいものである。特に.NET Frameworkのようなmagnetなタグは比較的使いやすいものであるため初心者などに多く使われている。C♯のように古くからあり有名なタグはmagnet valueもsticky valueも高くAttractiveである。また.NETのように一つの優れた構想に関連のある環境やプログラミング言語もまた人気である。
   
@@ -231,7 +233,7 @@ Table~\ref{table2} shows the proportion of the vertical axis is in the quadrant 
 \noindent \textbf{Manual analysis:}
 Table~\ref{table1} shows the transition of each tag quadrant in the framework, revealing how the tags move in the quadrant. Xamarin is an interesting example. Xamarin is an API for Android and iOS developed with C\#. Thus, it is difficult to develop an application without having knowledge of both applications. Developing Android and iOS apps in Windows and Visual Studio requires a lot of programming knowledge and is not good for beginners. When Xamarin was launched, it attracted the attention of many developers owing to its efficiency. However, when beginners ask questions on sites such as SO, its popularity gradually declines owing to its application difficulty for beginners.
 
-Similarly, React is a Facebook JavaScript library that builds the web application user interface efficiently. Riact was first launched on Facebook’s news feed in 2011 and on Instagram in 2012. It was an open source at the JSConf US on May 2013. Social networking services (SNSs) such as Facebook and Instagram became popular around 2015–2016 when React changed from Terminal to Floating. Therefore, it seems that the popularity of the Framework changed based on its application on the popular SNSs.
+Similarly, React is a Facebook JavaScript library that builds the web application user interface efficiently. React was first launched on Facebook’s news feed in 2011 and on Instagram in 2012. It was an open source at the JSConf US on May 2013. Social networking services (SNSs) such as Facebook and Instagram became popular around 2015–2016 when React changed from Terminal to Floating. Therefore, it seems that the popularity of the Framework changed based on its application on the popular SNSs.
 
 % 表2はフレーフレームワークにおいて各タグの象限の変遷を示している。この表から、我々はタグたちがどのように象限を変遷していくかがわかる。ここで、面白い例としてXamarinに注目する。Xamarinは基本的にAndroid API,iOSのAPIをC♯から呼び出せるようにしたものなので、両者について知らないとアプリ開発ができない。つまりWindows と Visual StudioでAndroidとiOSアプリの開発を始める場合大変多くの知識を必要とするため初心者には向かない。Xamarinが登場した当初は開発者たちが効率よく開発できるツールとして注目を浴びたが、StackOverflowのように初心者が質問することが多いサイトにおいてはそのしよう難易度の高さから徐々に人気が減少していったのだろうと思われる。
 % またRiactについて、これはFacebookとコミュニティによって開発されているユーザインタフェースを構築するためのJavaScriptライブラリである。2011年にFacebookのニュースフィード上で最初に使用され、2012年にはInstagramでも使用されるようになった。2013年5月のJSConf USでオープンソース化された。FaceBookやInstagramなどのSNSが人気になり始めたのはちょうどReactがTerminalからFluctuatingに変遷した2015-2016年ごろであるため、人気のSNSに合わせてそれを構築するFrameworkの人気も変化したのではないかと思われる。
