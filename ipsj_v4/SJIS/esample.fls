@@ -236,13 +236,13 @@ INPUT img/example001.eps
 INPUT img/example001.eps
 INPUT img/2010all.eps
 INPUT img/2010all.eps
-INPUT img/frame2010-2018.eps
-INPUT img/frame2010-2018.eps
+INPUT img/averageAFST.eps
+INPUT img/averageAFST.eps
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/txtt.tfm
-INPUT img/averageAFST.eps
-INPUT img/averageAFST.eps
+INPUT img/frame2010-2018.eps
+INPUT img/frame2010-2018.eps
 INPUT esample.bbl
 INPUT esample.bbl
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/txmi1.tfm

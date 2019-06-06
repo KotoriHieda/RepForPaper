@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex esample"] 1559753683 "esample.aux" "esample.bbl" "esample" 1559754024
+["bibtex esample"] 1559803912 "esample.aux" "esample.bbl" "esample" 1559803916
   "/usr/local/texlive/2017/texmf-dist/bibtex/bst/IEEEtran/IEEEtran.bst" 1480098433 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "esample.aux" 1559753686 1594 24f0fc06a1c404f4a380ce7edf731247 ""
+  "esample.aux" 1559803913 1483 176570618011c4475d3b67a90e673464 ""
   "mining.bib" 1559752902 10571 dd11c6a873a9ca5d23b65a7ae4027c61 ""
   (generated)
   "esample.blg"
   "esample.bbl"
-["dvipdf"] 1559753686 "esample.dvi" "esample.pdf" "esample" 1559754024
-  "esample.dvi" 1559753686 29504 20aeabb41f7bb9f9b7b2c599a367f49e "latex"
+["dvipdf"] 1559803914 "esample.dvi" "esample.pdf" "esample" 1559803916
+  "esample.dvi" 1559803913 28228 50a451c0af2b512dbc35c47448aad364 "latex"
   (generated)
   "esample.pdf"
-["latex"] 1559753685 "esample.tex" "esample.dvi" "esample" 1559754024
+["latex"] 1559803913 "esample.tex" "esample.dvi" "esample" 1559803916
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1480098698 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm" 1480098698 1196 1be730212205a270378fba11a44765dc ""
@@ -73,9 +73,9 @@
   "/usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf" 1494087824 32646 eadc4ca26cdbe7105ac7c593aa8c4f72 ""
   "/usr/local/texlive/2017/texmf-var/web2c/eptex/platex.fmt" 1546925694 4345395 0c49284fa5bf4f012fb641c9c53fbd36 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "esample.aux" 1559753686 1594 24f0fc06a1c404f4a380ce7edf731247 ""
-  "esample.bbl" 1559753683 3450 612a6de68a1bab005704c04828b6a413 "bibtex esample"
-  "esample.tex" 1559753694 26381 6b8de63b880aa8fd3c18d61532aca9b0 ""
+  "esample.aux" 1559803913 1483 176570618011c4475d3b67a90e673464 ""
+  "esample.bbl" 1559803912 2748 bc1799e0a7077ba98f76e47c806d1f3f "bibtex esample"
+  "esample.tex" 1559803867 26083 178e0026cc2ef37479fbab5c46728549 ""
   "img/2010all.eps" 1559746273 275040 44c7e249edf36f398b57b035468b0932 ""
   "img/averageAFST.eps" 1559749935 83624 5894e29486ca9b8111d548297c185a59 ""
   "img/example001.eps" 1557935998 21353 6ce7d5339fc21b0bbda0b14904eb77cd ""
@@ -84,5 +84,5 @@
   "ipsj.cls" 1557935998 136173 edc2b78c657ed865834831a8cbffeb3f ""
   (generated)
   "esample.dvi"
-  "esample.log"
   "esample.aux"
+  "esample.log"
