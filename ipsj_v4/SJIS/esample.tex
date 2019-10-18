@@ -22,7 +22,6 @@
 % \accepted{2016}{8}{1}
 
 
-
 \usepackage[varg]{txfonts}%%!!
 \usepackage{url}
 
@@ -62,7 +61,7 @@ magnet, sticky, tag, user migration, OSS census
 \section{Introduction}
 The Pew Research Center (PRC)~\cite{communityeconomic} is the U.S. fact finder that provides information on social problems and demographic trends that shape the United States and the world. \emph{Magnet states} are defined as states where a high percentage of the population migrated from the outside, whereas sticky states have a high proportion of those living in the same state since birth. Nevada is a \emph{magnet states} because  86\% of the population migrated from other states. It is possible to find the movement of American citizens by studying this demographic trend.
 
-For software developers, understanding other developers’ interests are important as the popurality of developers have advantages. Many developers like to work with convenient and easy-to-use tools. To develop a project efficiently, developers must focus on long-term-projects. 
+For software developers, understanding other developers' interests are important as the popurality of developers have advantages. Many developers like to work with convenient and easy-to-use tools. To develop a project efficiently, developers must focus on long-term-projects. 
 
 In this study, we focus on new and existing topics of Stack Overflow (SO). Inspired by previous studies~\cite{yamashita2016magnet}, we apply Magnet and Sticky metrics to the topics collected in SO. 
 The magnet metric is the number of new developers attracted to a topic and Sticky metric is the number of existing developers who stay with the topic. 
@@ -161,7 +160,7 @@ We calculated magnet and sticky values as defined in Section~\ref{magnet}. We pl
 \textbf{Stagnant:} Tags with a lower magnet and higher sticky value. These tags are difficult to attract new users, but it can maintain existing users.\\
 \textbf{Terminal:} Tags with the lower magnet and lower sticky value. This tag can neither attract new developers nor keep them interested.
 
-The median of the magnet and sticky values for each year is used for the quadrant threshold because the median is unaffected by outliers. From the sticky value definition in Section~\ref{magnet}, the sticky value depends on the number of tag users in a year and the following year. To answer RQ1, we got 9 years’ worth of sticky values based on the information on the number of tag users from 2009 to 2018. The sticky value must depend on the number of new tag users, but, if the number of new tag users in a year is too low, the sticky value will be too small. To remove noise, we fix thresholds for each topic When the magnet and sticky value is less than the threshold value, it is set to 0.
+The median of the magnet and sticky values for each year is used for the quadrant threshold because the median is unaffected by outliers. From the sticky value definition in Section~\ref{magnet}, the sticky value depends on the number of tag users in a year and the following year. To answer RQ1, we got 9 years’ worth of sticky values based on the information on the number of tag users from 2009 to 2018. The sticky value must depend on the number of new tag users, but, if the number of new tag users in a year is too low, the sticky value will be too small. To remove noise, we fix thresholds for each topic when the magnet and sticky value is less than the threshold value, it is set to 0.
 
 
 We did not analyze all the tags at once, but divided them into three categories for analysis. The selected categories and their contents are:
@@ -220,7 +219,7 @@ Table~\ref{table2} shows that the proportion of the vertical axis is in the quad
 \noindent \textbf{Manual analysis:}
 Table~\ref{table1} shows the transition of each tag quadrant in the framework, revealing how the tags move in the quadrant. Xamarin is an interesting example. Xamarin~\cite{reynolds2014xamarin} is an API for Android and iOS developed with C\#. Thus, it is difficult to develop an application without having knowledge of both applications. Developing Android and iOS apps in Windows and Visual Studio requires a lot of programming knowledge and is not good for beginners. When Xamarin was launched, it attracted the attention of many developers owing to its efficiency. However, when beginners ask questions on sites such as SO, its popularity gradually declines owing to its application difficulty for beginners.
 
-Similarly, React~\cite{staff2016react} is a Facebook JavaScript library that builds the web application user interface efficiently. React was first launched on Facebook’s news feed in 2011 and on Instagram in 2012. It was an open source at the JSConf US on May 2013. Social networking services (SNSs)~\cite{ellison2013sociality} such as Facebook and Twitter became popular around 2015 – 2016 when React changed from Terminal to Floating. Therefore, it seems that the popularity of the Framework changed based on its application on the popular SNSs.
+Similarly, React~\cite{staff2016react} is a Facebook JavaScript library that builds the web application user interface efficiently. React was first launched on Facebook’s news feed in 2011 and on Instagram in 2012. It was an open source at the JSConf US on May 2013. Social networking services (SNSs)~\cite{ellison2013sociality} such as Facebook and Twitter became popular around 2015 – 2016 when React changed from Terminal to Fluctuating. Therefore, it seems that the popularity of the Framework changed based on its application on the popular SNSs.
 
 
 \noindent \textbf{Summary:}

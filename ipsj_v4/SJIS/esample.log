@@ -1,39 +1,28 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2015.8.3)  10 JUN 2019 10:11
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2019.1.8)  18 OCT 2019 15:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **esample.tex
 (./esample.tex
-LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+pLaTeX2e <2017/05/05> (based on LaTeX2e <2017-04-15>)
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (./ipsj.cls
 Document Class: ipsj 2018/08/03 v4.0 IPSJ class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/graphics/color
-.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
-
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/latexconfig/co
-lor.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: dvips.def on input line 147.
 
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdf
-tex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/generic/oberdiek/inf
-warerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2016/07/10 v3.1a Driver-dependent file (DPC,SPQR)
 )
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/generic/oberdiek/ltx
-cmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count79
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-\c@@paper=\count80
+\c@@paper=\count82
 
 \ProcessOptions ->\let \ds@ \@empty \edef \@curroptions {\@ptionlist {\@currnam
 e .\@currext }}\@ifstar \@xprocess@ptions \@process@ptions 
@@ -4280,25 +4269,25 @@ al,\@nil ,\@nil
 #2<-\let \@unprocessedoptions \relax 
 
 \ipsj.cls-h@@k ->
-\h=\dimen102
-\JQ=\dimen103
-\Q=\dimen104
-\@Q=\dimen105
+\h=\dimen118
+\JQ=\dimen119
+\Q=\dimen120
+\@Q=\dimen121
 \ChtE=\skip41
 \CdpE=\skip42
 \CwdE=\skip43
 \CvsE=\skip44
 \normalbaselineskip=\skip45
-\c@volume=\count81
-\c@number=\count82
-\c@month=\count83
-\c@year=\count84
-\author@count=\count85
-\label@count=\count86
-\email@count=\count87
-\affiliate@count=\count88
-\offsetemail=\count89
-\paffiliate@count=\count90
+\c@volume=\count83
+\c@number=\count84
+\c@month=\count85
+\c@year=\count86
+\author@count=\count87
+\label@count=\count88
+\email@count=\count89
+\affiliate@count=\count90
+\offsetemail=\count91
+\paffiliate@count=\count92
 \shubetutitlesep=\skip46
 \JEhonbunsep=\skip47
 \Etitleauthorsep=\skip48
@@ -4314,72 +4303,65 @@ al,\@nil ,\@nil
 \Jeauthorereceivesep=\skip58
 \Jereceiveeabstsep=\skip59
 \Jeabstekeywordsep=\skip60
-\@abstractbox=\box26
-\@eabstractbox=\box27
-\@jkeywordbox=\box28
-\@ekeywordbox=\box29
-\@keywordbox=\box30
-\c@part=\count91
-\c@section=\count92
-\c@subsection=\count93
-\c@subsubsection=\count94
-\c@paragraph=\count95
-\c@subparagraph=\count96
-\@tempboxb=\box31
-\SECTwd=\box32
+\@abstractbox=\box42
+\@eabstractbox=\box43
+\@jkeywordbox=\box44
+\@ekeywordbox=\box45
+\@keywordbox=\box46
+\c@part=\count93
+\c@section=\count94
+\c@subsection=\count95
+\c@subsubsection=\count96
+\c@paragraph=\count97
+\c@subparagraph=\count98
+\@tempboxb=\box47
+\SECTwd=\box48
 \section@height=\skip61
-\@abovecapskip=\dimen106
-\@belowcapskip=\dimen107
-\c@figure=\count97
-\c@table=\count98
+\@abovecapskip=\dimen122
+\@belowcapskip=\dimen123
+\c@figure=\count99
+\c@table=\count100
 \abovecaptionskip=\skip62
 \belowcaptionskip=\skip63
-\@tempboxb=\box33
-\capwidth=\dimen108
-\ecapwidth=\dimen109
-\bibindent=\dimen110
-\c@profile=\count99
-\mathindent=\dimen111
-\@dummyfigbox=\box34
-\twocolcapwidth=\dimen112
-\twocolecapwidth=\dimen113
-\@compare@result=\count100
+\@tempboxb=\box49
+\capwidth=\dimen124
+\ecapwidth=\dimen125
+\bibindent=\dimen126
+\c@profile=\count101
+\mathindent=\dimen127
+\@dummyfigbox=\box50
+\twocolcapwidth=\dimen128
+\twocolecapwidth=\dimen129
+\@compare@result=\count102
 )
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/graphics/graph
-icx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/graphics/keyva
-l.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
 )
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/graphics/graph
-ics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/graphics/trig.
-sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/latexconfig/gr
-aphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: dvips.def on input line 99.
 )
-\Gin@req@height=\dimen114
-\Gin@req@width=\dimen115
+\Gin@req@height=\dimen130
+\Gin@req@width=\dimen131
 )
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/base/latexsym.
-sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/txfonts/txfont
-s.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -4455,332 +4437,217 @@ LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
 (Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
 LaTeX Info: Redefining \not on input line 1043.
 )
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/txfonts/ot1txt
-t.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
-) (./esample.aux)
+)
+(./esample.aux)
 \openout1 = `esample.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 33.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 33.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 32.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 32.
 
 
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/txfonts/omltxm
-i.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 33.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 33.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 32.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 32.
 
 
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/txfonts/omstxs
-y.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 33.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 33.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 32.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 32.
 
 
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/txfonts/omxtxe
-x.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 33.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 33.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 32.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 32.
 
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/txfonts/utxexa
-.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 33.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/txfonts/ot1txr
-.fd
+(I search kanjifont definition file: . . ) (I search font definition file: . .
+. . . . . )
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 32.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/context/base/supp-pd
-f.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count101
-\scratchdimen=\dimen116
-\scratchbox=\box35
-\nofMPsegments=\count102
-\nofMParguments=\count103
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count104
-\MPscratchDim=\dimen117
-\MPnumerator=\count105
-\makeMPintoPDFobject=\count106
-\everyMPtoPDFconversion=\toks16
-)
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/generic/oberdiek/pdf
-texcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
 
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/generic/oberdiek/ifl
-uatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/generic/oberdiek/ifp
-df.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/oberdiek/epsto
-pdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/oberdiek/grfex
-t.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/generic/oberdiek/kvd
-efinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/oberdiek/kvopt
-ions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/generic/oberdiek/kvs
-etkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/generic/oberdiek/ete
-xcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/latexconfig/ep
-stopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-LaTeX Font Info:    Try loading font information for OT1+txss on input line 48.
+LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
+(Font)              using `JT1/mc/m/n' instead on input line 47.
 
 
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/txfonts/ot1txs
-s.fd
+LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
+(Font)              using `JY1/mc/m/n' instead on input line 47.
+
+
+LaTeX Font Warning: Font shape `JT1/mc/bx/it' undefined
+(Font)              using `JT1/mc/bx/n' instead on input line 47.
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8.5373> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 47.
+
+LaTeX Font Warning: Font shape `JY1/mc/bx/it' undefined
+(Font)              using `JY1/mc/bx/n' instead on input line 47.
+
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8.5373> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 47.
+(I search kanjifont definition file: . . ) (I search font definition file: . .
+. . . . . )
+LaTeX Font Info:    Font shape `JT1/mc/bx/it' in size <8.5373> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `JY1/mc/bx/it' in size <8.5373> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 47.
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 47.
+
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/bx/it' in size <8.5373> not available
-(Font)              Font shape `OT1/txss/b/sl' tried instead on input line 48.
+(Font)              Font shape `OT1/txss/b/sl' tried instead on input line 47.
 LaTeX Font Info:    Font shape `OT1/txss/b/sl' will be
-(Font)              scaled to size 8.1104pt on input line 48.
-LaTeX Font Info:    Calculating math sizes for size <9.25> on input line 59.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 59.
+(Font)              scaled to size 8.1104pt on input line 47.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12.80594> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12.80594> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <19.92035> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <19.92035> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 58.
+LaTeX Font Info:    Calculating math sizes for size <9.25> on input line 58.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 58.
 
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/txfonts/utxmia
-.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 59.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 58.
 
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/txfonts/utxsya
-.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 59.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 58.
 
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/txfonts/utxsyb
-.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 59.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 58.
 
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/txfonts/utxsyc
-.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Calculating math sizes for size <12.56738> on input line 59
+
+LaTeX Font Warning: Font shape `JT1/mc/m/sc' undefined
+(Font)              using `JT1/mc/m/n' instead on input line 58.
+
+
+LaTeX Font Warning: Font shape `JY1/mc/m/sc' undefined
+(Font)              using `JY1/mc/m/n' instead on input line 58.
+
+LaTeX Font Info:    Calculating math sizes for size <12.56738> on input line 58
 .
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 7.02292pt on input line 59.
-LaTeX Font Info:    Calculating math sizes for size <7.82585> on input line 59.
+(Font)              scaled to size 7.02292pt on input line 58.
+LaTeX Font Info:    Calculating math sizes for size <7.82585> on input line 58.
 
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no ™ in font txr!
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <11.82813> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 61.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <11.82813> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 61.
+
+LaTeX Font Warning: Font shape `JT1/gt/m/it' undefined
+(Font)              using `JT1/gt/m/n' instead on input line 62.
+
+
+LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
+(Font)              using `JY1/gt/m/n' instead on input line 62.
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9.25> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 72.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9.25> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 72.
+LaTeX Font Info:    Font shape `JT1/mc/bx/it' in size <9.25> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `JY1/mc/bx/it' in size <9.25> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 8.78625pt on input line 86.
+(Font)              scaled to size 8.78625pt on input line 85.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9.24873> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 85.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9.24873> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <9.24873> not available
-(Font)              Font shape `OT1/txss/b/n' tried instead on input line 86.
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
-(Font)              scaled to size 8.78625pt on input line 86.
+(Font)              scaled to size 8.78625pt on input line 85.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 7.43452pt on input line 86.
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 86.
-
-(/Applications/TeXLive/Library/texlive/2013/texmf-dist/tex/latex/txfonts/omstxr
-.fd
+(Font)              scaled to size 7.43452pt on input line 85.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 85.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <7.11441> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 86.
- [1{/Users/Shared/TeXLive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 85.
+ [1
 
 
 ]
-Package epstopdf Info: Source file: <img/explainofMS.eps>
-(epstopdf)                    date: 2019-06-06 15:21:49
-(epstopdf)                    size: 30514 bytes
-(epstopdf)             Output file: <img/explainofMS-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-06 15:22:35
-(epstopdf)                    size: 11629 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/explainofMS-eps-conver
-ted-to.pdf img/explainofMS.eps>
-(epstopdf)             \includegraphics on input line 99.
-Package epstopdf Info: Output file is already uptodate.
+File: img/explainofMS.eps Graphic file (type eps)
 
-<img/explainofMS-eps-converted-to.pdf, id=16, 312.16624pt x 350.30875pt>
-File: img/explainofMS-eps-converted-to.pdf Graphic file (type pdf)
+<img/explainofMS.eps>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7.82584> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 99.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7.82584> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 99.
+File: img/example001.eps Graphic file (type eps)
+ <img/example001.eps>
+File: img/2010all.eps Graphic file (type eps)
+ <img/2010all.eps>
+File: img/averageAFST.eps Graphic file (type eps)
 
-<use img/explainofMS-eps-converted-to.pdf>
-Package pdftex.def Info: img/explainofMS-eps-converted-to.pdf used on input lin
-e 99.
-(pdftex.def)             Requested size: 180.08917pt x 202.09947pt.
+<img/averageAFST.eps> [2]
+Missing character: There is no ^^e2 in font txr!
+Missing character: There is no ^^80 in font txr!
+Missing character: There is no ^^8b in font txr!
+Missing character: There is no ^^e2 in font txr!
+Missing character: There is no ^^80 in font txr!
+Missing character: There is no ^^8b in font txr!
+ (I search kanjifont definition file: . . )
+Missing character: There is no ^^e2 in font txr!
+Missing character: There is no ^^80 in font txr!
+Missing character: There is no ^^8b in font txr!
+Missing character: There is no ^^e2 in font txr!
+Missing character: There is no ^^80 in font txr!
+Missing character: There is no ^^8b in font txr!
+Missing character: There is no ^^c2 in font txr!
+Missing character: There is no ^^a0 in font txr!
+File: img/frame2010-2018.eps Graphic file (type eps)
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-Package epstopdf Info: Source file: <img/example001.eps>
-(epstopdf)                    date: 2019-06-06 15:21:49
-(epstopdf)                    size: 21353 bytes
-(epstopdf)             Output file: <img/example001-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-06 15:22:36
-(epstopdf)                    size: 10187 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/example001-eps-convert
-ed-to.pdf img/example001.eps>
-(epstopdf)             \includegraphics on input line 115.
-Package epstopdf Info: Output file is already uptodate.
-<img/example001-eps-converted-to.pdf, id=17, 335.2525pt x 185.69376pt>
-File: img/example001-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/example001-eps-converted-to.pdf>
-Package pdftex.def Info: img/example001-eps-converted-to.pdf used on input line
- 115.
-(pdftex.def)             Requested size: 192.09584pt x 106.39906pt.
-Package epstopdf Info: Source file: <img/2010all.eps>
-(epstopdf)                    date: 2019-06-06 15:21:48
-(epstopdf)                    size: 275040 bytes
-(epstopdf)             Output file: <img/2010all-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-06 15:22:37
-(epstopdf)                    size: 68642 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/2010all-eps-converted-
-to.pdf img/2010all.eps>
-(epstopdf)             \includegraphics on input line 130.
-Package epstopdf Info: Output file is already uptodate.
-
-<img/2010all-eps-converted-to.pdf, id=18, 680.5425pt x 224.84pt>
-File: img/2010all-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/2010all-eps-converted-to.pdf>
-Package pdftex.def Info: img/2010all-eps-converted-to.pdf used on input line 13
-0.
-(pdftex.def)             Requested size: 503.0pt x 166.18343pt.
-Package epstopdf Info: Source file: <img/averageAFST.eps>
-(epstopdf)                    date: 2019-06-06 15:21:49
-(epstopdf)                    size: 83624 bytes
-(epstopdf)             Output file: <img/averageAFST-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-06 15:22:39
-(epstopdf)                    size: 28408 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/averageAFST-eps-conver
-ted-to.pdf img/averageAFST.eps>
-(epstopdf)             \includegraphics on input line 146.
-Package epstopdf Info: Output file is already uptodate.
-
-<img/averageAFST-eps-converted-to.pdf, id=19, 389.455pt x 368.37625pt>
-File: img/averageAFST-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/averageAFST-eps-converted-to.pdf>
-Package pdftex.def Info: img/averageAFST-eps-converted-to.pdf used on input lin
-e 146.
-(pdftex.def)             Requested size: 240.1189pt x 227.12056pt.
- [2 <./img/explainofMS-eps-converted-to.pdf> <./img/example001-eps-converted-to
-.pdf>]
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no ™ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no ‹ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no ‹ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no ™ in font txr!
-Missing character: There is no ¯ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no ‹ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no ‹ in font txr!
-Missing character: There is no Â in font txr!
-Missing character: There is no   in font txr!
-Package epstopdf Info: Source file: <img/frame2010-2018.eps>
-(epstopdf)                    date: 2019-06-06 15:21:49
-(epstopdf)                    size: 100131 bytes
-(epstopdf)             Output file: <img/frame2010-2018-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-06 15:22:38
-(epstopdf)                    size: 24754 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/frame2010-2018-eps-con
-verted-to.pdf img/frame2010-2018.eps>
-(epstopdf)             \includegraphics on input line 208.
-Package epstopdf Info: Output file is already uptodate.
-
-<img/frame2010-2018-eps-converted-to.pdf, id=38, 810.02625pt x 286.06876pt>
-File: img/frame2010-2018-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/frame2010-2018-eps-converted-to.pdf>
-Package pdftex.def Info: img/frame2010-2018-eps-converted-to.pdf used on input 
-line 208.
-(pdftex.def)             Requested size: 503.0pt x 177.64452pt.
- [3 <./img/2010all-eps-converted-to.pdf> <./img/averageAFST-eps-converted-to.pd
-f>]
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no ™ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no ™ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no ™ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no ™ in font txr!
+<img/frame2010-2018.eps> [3]
+Missing character: There is no ^^e2 in font txr!
+Missing character: There is no ^^80 in font txr!
+Missing character: There is no ^^93 in font txr!
  (./esample.bbl
 LaTeX Font Info:    Calculating math sizes for size <7.82584> on input line 2.
 
@@ -4801,34 +4668,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--28
 mic-[]Development .
  []
 
-) [4 <./img/frame2010-2018-eps-converted-to.pdf>] (./esample.aux) ) 
-Here is how much of TeX's memory you used:
- 3260 strings out of 493311
- 46340 string characters out of 6129421
- 105018 words of memory out of 5000000
- 6613 multiletter control sequences out of 15000+600000
- 81022 words of font info for 192 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 38i,10n,23p,1198b,286s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/Applicatio
-ns/TeXLive/Library/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</Applic
-ations/TeXLive/Library/texlive/2013/texmf-dist/fonts/type1/public/txfonts/rtxr.
-pfb></Applications/TeXLive/Library/texlive/2013/texmf-dist/fonts/type1/public/t
-xfonts/rtxsc.pfb></Applications/TeXLive/Library/texlive/2013/texmf-dist/fonts/t
-ype1/public/txfonts/txsy.pfb></Applications/TeXLive/Library/texlive/2013/texmf-
-dist/fonts/type1/public/txfonts/txtt.pfb></Applications/TeXLive/Library/texlive
-/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></Applications/TeXLive/Lib
-rary/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></Applications
-/TeXLive/Library/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></
-Applications/TeXLive/Library/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb
-8a.pfb></Applications/TeXLive/Library/texlive/2013/texmf-dist/fonts/type1/urw/t
-imes/utmbi8a.pfb></Applications/TeXLive/Library/texlive/2013/texmf-dist/fonts/t
-ype1/urw/times/utmr8a.pfb></Applications/TeXLive/Library/texlive/2013/texmf-dis
-t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on esample.pdf (4 pages, 232185 bytes).
-PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+) [4] (./esample.aux)
 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2492 strings out of 493653
+ 32929 string characters out of 6148875
+ 90653 words of memory out of 5000000
+ 6044 multiletter control sequences out of 15000+600000
+ 64243 words of font info for 204 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 30i,10n,22p,1195b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on esample.dvi (4 pages, 28232 bytes).
