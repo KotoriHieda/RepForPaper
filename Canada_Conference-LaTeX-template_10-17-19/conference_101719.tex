@@ -20,14 +20,13 @@
 % should not be used}
 % \thanks{Identify applicable funding agency here. If none, delete this.}
 }
-
 \author{\IEEEauthorblockN{1\textsuperscript{st} Kotori Hieda}
 \IEEEauthorblockA{\textit{Information Science and Electrical Engineering. Kyushu University} \\
 \textit{name of organization (of Aff.)}\\ 
 Fukuoka, Japan \\
 hieda@f.ait.kyushu-u.ac.jp}
 \and
-\IEEEauthorblockN{3\textsuperscript{rd} Yu Mingzhe}
+\IEEEauthorblockN{2\textsuperscript{nd} Yu Mingzhe}
 \IEEEauthorblockA{\textit{Information Science and Electrical Engineering. Kyushu University} \\
 \textit{name of organization (of Aff.)}\\ 
 Fukuoka, Japan \\
@@ -61,7 +60,7 @@ kamei@ait.kyushu-u.ac.jp}
 \maketitle
 
 \begin{abstract}
-Stack Overflow (SO) is one of the most popular question and answer sites for software developers. SO stores posts assigned with tags that correspond to the keywords of each question. If a developer asks question related to Python and inputs ``Python'' tag on the post, the developers interested in Python can participate in the post easily. Since 2008, SO has become one of the most trusted online communities. In this study, we explore developers' interest by analyzing how they use tags. We classify tags into four: (1) attractive, (2) stagnant, (3) fluctuating, and (4) terminal based on magnet values and sticky values. We analyze data of table ``Posts'' of approximately 42 million posts in SO and table ``Users'' of approximately 9 million rows of user information. Results reveal that some historical events in IT are retrieved, which include launching of new tools and terminating of services with the transition of magnet value and sticky value.
+Stack Overflow (SO) is one of the most popular question and answer sites for software developers. SO stores posts assigned with tags that correspond to the keywords of each question. If a developer asks question related to Python and inputs ``Python'' tag on the post, the developers interested in Python can participate in the post easily. Since 2008, SO has become one of the most trusted online communities. In this study, we explore developers' interest by analyzing how they use tags. We classify tags into four: (1) attractive, (2) fluctuating, (3) stagnant, and (4) terminal based on magnet values and sticky values. We analyze data of table ``Posts'' of approximately 42 million posts in SO and table ``Users'' of approximately 9 million rows of user information. Results reveal that some historical events in IT are retrieved, which include launching of new tools and terminating of services with the transition of magnet value and sticky value.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -102,42 +101,48 @@ SO contents are questions and answers to the questions and comments~\cite{liu201
 
 \noindent
 \textbf{Example (Calculating magnet and sticky values).}
-To calculate magnet and sticky values of topics that belong to a major category, we use a total of six questions (a, b, c, d, e, f) and seven users (A, B, C, D, E, F, G); the Last Activity Date of question a, b, c was in 2017, and question d, e, f in 2018. The registration date of user A, B, C, D was in 2017, and the registration date of user E, F, G was in 2018~\cite{yamashita2016magnet}  as shown in Figure ~\ref{fig:example2}.
+To calculate magnet and sticky values of topics that belong to a major cate- gory, we use a total of six questions (⍺,β,γ) and five users (A, B, C, D, E); The registration date of user A, B, C was in 2017, and the registration date of user D,E was in 2018~\cite{yamashita2016magnet} as shown in Figure~\ref{fig:example1}.
+% To calculate magnet and sticky values of topics that belong to a major category, we use a total of six questions (a, b, c, d, e, f) and seven users (A, B, C, D, E, F, G); the Last Activity Date of question a, b, c was in 2017, and question d, e, f in 2018. The registration date of user A, B, C, D was in 2017, and the registration date of user E, F, G was in 2018~\cite{yamashita2016magnet} as shown in Figure ~\ref{fig:example1}.
 
 \begin{figure}[t]
  \centering
- \includegraphics[width=.75\hsize]{img/explainofMS.eps}  
+ \includegraphics[width=.75\hsize]{img/fig11.eps}  
  \caption{Example of Magnet and Sticky values definition} 
- \label{fig:example2} 
-\end{figure}
-
-
-To calculate the magnet metric, we observe four new users who registered their accounts in 2017 (A, B, C, and D), and all of them discuss topic 1, whereas two of them (B, C) participate in the discussion topic 2 and 3. In this case, the Magnet value of topic 1 in 2017 is 4/4, topic 2 is 2/4, and topic 3 is 2/4.
-
-To calculate the sticky metric on topic 1, three users participated in the discussion in 2017 (A, B, and C). Only one of them participated in the discussion in 2018 (A). Hence, the sticky value of project 1 is 1/4. In topic 2, two users participated in the discussion in 2017 (B and C); however, only one of them participated in the discussion in 2018 (B). Though new users E, F, G, participated in the discussion in 2018, we still calculate the value of sticky as 1/2. For the same reason, the sticky of topic 3 is 2/2 in 2018.\\
-
-\noindent
-\textbf{Example (Merging similar subjects into one topic).}
-We merge subjects (i.e., tags) that belong to analogous subjects into one topic. For example, we consider that different version numbers (e.g., tag ``Python-2.7'' and tag ``Python-3.6'') are one of the common examples of analogous tags. 
-
-\begin{figure}[t]
- \centering
- \includegraphics[width=0.80\hsize]{img/example001.eps}  
- \caption{Example of the merge of tags belonging to analogous subjects} 
  \label{fig:example1} 
 \end{figure}
 
+Filled black circles in Figure~\ref{fig:example1} represents user activities (e.g., creating questions, answering questions, and adding comments to the questions) in a topic in a certain year. For example, while User A has activities in the Topic 1 in the year 2017 and 2018, but he/she has no activities in the Topic 2.
 
-We also need to merge derivatives of the same technology on different platforms, merge derivatives of special tools in a certain tool family, or a combination of technology with a common used library, etc. For example, the tag ``reactjs,'' ``react-router,'' ``reactjs-flux,'' ``create-react-app'' should be merged into one topic ``react.''
+To calculate the magnet metric, we observe three new users who registered their accounts in 2017 (A, B, C), and all of them discuss topic 1, whereas two of them (B, C) participate in the discussion topic 2. In this case, the Magnet value of topic 1 in 2017 is 3/3, topic 2 is 2/3. 
+% To calculate the magnet metric, we observe four new users who registered their accounts in 2017 (A, B, C, and D), and all of them discuss topic 1, whereas two of them (B, C) participate in the discussion topic 2 and 3. In this case, the Magnet value of topic 1 in 2017 is 4/4, topic 2 is 2/4, and topic 3 is 2/4.
+
+To calculate the sticky metric on topic 1, three users participated in the discussion in 2017 (A, B, and C). Only two of them participated in the discussion in 2018 (A, B). Hence, the sticky value of project 1 is 2/3. In topic 2, two users participated in the discussion in 2017 (B and C); however, only one of them participated in the discussion in 2018 (C). Though new users D, F participated in the discussion in 2018, we still calculate the value of sticky as 1/2.
+% To calculate the sticky metric on topic 1, three users participated in the discussion in 2017 (A, B, and C). Only one of them participated in the discussion in 2018 (A). Hence, the sticky value of project 1 is 1/4. In topic 2, two users participated in the discussion in 2017 (B and C); however, only one of them participated in the discussion in 2018 (B). Though new users E, F, G, participated in the discussion in 2018, we still calculate the value of sticky as 1/2. For the same reason, the sticky of topic 3 is 2/2 in 2018.\\
+
+\noindent
+\textbf{Example (Merging similar subjects into one topic).}
+We merge subjects (i.e., tags) that belong to analogous subjects into one topic. For example, we consider that different version numbers (e.g., tag “Python-2.7” and tag “Python-3.6”) are one of the common examples of analogous tags. 
+% We merge subjects (i.e., tags) that belong to analogous subjects into one topic. For example, we consider that different version numbers (e.g., tag ``Python-2.7'' and tag ``Python-3.6'') are one of the common examples of analogous tags. 
+
+\begin{figure}[t]
+ \centering
+ \includegraphics[width=0.80\hsize]{img/ff2.eps}  
+ \caption{Example of the merge of tags belonging to analogous subjects} 
+ \label{fig:example2} 
+\end{figure}
+
+We also need to merge derivatives of the same technology on different platforms, merge derivatives of special tools in a certain tool family, or a combination of technology with a commonly used library, etc. For example, the tag ``reactjs,'' ``react-router,'' ``reactjs-flux,'' ``create-react-app'' should be merged into one topic ``react.'' We can get this information from the “Related Tag” column of the ``Tag Info of SO.''
+% We also need to merge derivatives of the same technology on different platforms, merge derivatives of special tools in a certain tool family, or a combination of technology with a common used library, etc. For example, the tag ``reactjs,'' ``react-router,'' ``reactjs-flux,'' ``create-react-app'' should be merged into one topic ``react.''
 % Of course, the difference in version number is the most common example of analogous tags. The rest of examples includes derivatives of the technology on different platforms, commonly used libraries, or specific tools in a tool family, etc. for example topic ``react'' includes tag ``reactjs'', ``react-router'', ``reactjs-flux'', ``create-react-app'' etc. 
-We can get this information from the ``Related Tag'' column of the ``Tag Info of SO.''
+% We can get this information from the ``Related Tag'' column of the ``Tag Info of SO.''
 
-Figure~\ref{fig:example1} shows that question a has tag 1.0, question b has tag 1.1, and question f has tag 1.2. According to our merge rule, they all belong to topic 1. The question c has tag 2.0 and tag 3.1, showing that it belongs to topic 2 and 3. Therefore, question d belongs to topic 2, and question e belongs to topic 3.
+Figure~\ref{fig:example2} shows that question ⍺ has tag ``python'' and ``python-3.x,'' question β has tag ``python-2.7.'' According to our merge rule, they all belong to topic ``python.'' The question γ has tag ``c++17,'' showing that it belongs to topic ``c++.'' Therefore, question β also belongs to topic ``numpy'' and question γ also belongs to topic ``boost.''
+% Figure~\ref{fig:example2} shows that question a has tag 1.0, question b has tag 1.1, and question f has tag 1.2. According to our merge rule, they all belong to topic 1. The question c has tag 2.0 and tag 3.1, showing that it belongs to topic 2 and 3. Therefore, question d belongs to topic 2, and question e belongs to topic 3.
 
 
 \begin{figure*}[t]
  \centering
- \includegraphics[width=1.0\hsize]{img/2010all.eps}  
+ \includegraphics[width=1.0\hsize]{img/2010allnew.eps}  
  \caption{Distribution of Magnet and Sticky values in Programing Language, Framework and Environment} 
  \label{fig:2010} 
 \end{figure*}
@@ -153,9 +158,16 @@ However, we only analyze the data from table \emph{Posts} of approximately 42 mi
 \begin{table}[t]
  \centering
  \caption{Average Quadrant Transition rate}
- \includegraphics[width=1.0\hsize]{img/averageAFST.eps} 
+ \includegraphics[width=1.0\hsize]{img/transitionnew.eps} 
  \label{table2} 
 \end{table}
+
+\begin{table*}[t]
+ \centering
+ \caption{Quadrant Transition of Framework 2010 - 2018} 
+ \includegraphics[width=1.0\hsize]{img/AFSTnew.eps} 
+ \label{table1} 
+\end{table*}
 
 
 \section{Study Results} %paragraph4
@@ -206,18 +218,12 @@ We chose these tags based on SO's survey of over 100,000 developers in 2018~\foo
 % \medskip
 
 \noindent \textbf{Results:}
-Figure~\ref{fig:2010} shows a quadrant plot of the magnet and sticky values ​​of the 2010 framework, programming language, and environmental tag\footnote{We choose the year 2010 because it is the first year for which yearly data of sticky value can be obtained.}, revealing that the magnet value is lower than the sticky value. The results are similar to the findings of the PRC. For example, the U.S. citizens are likely to live in the same house than to change houses; it is easier for developers to continue developing the same content.
+Figure~\ref{fig:2010} shows a quadrant plot of the magnet and sticky values ​​of the 2010 programming language, framework, and environmental tag\footnote{We choose the year 2010 because it is the first year for which yearly data of sticky value can be obtained.}, revealing that the magnet value is lower than the sticky value. The results are similar to the findings of the PRC. For example, the U.S. citizens are likely to live in the same house than to change houses; it is easier for developers to continue developing the same content.
  
 
 \noindent \textbf{Summary.}
- Tags with high magnet value are easy to use even for beginners. A tag familiar to C\# has a high magnet value and sticky value, and it is more attractive.
+ Tags with high magnet value are easy to use even for beginners. A tag familiar to C has a high magnet value and sticky value, and it is more attractive.
 
-\begin{table*}[t]
- \centering
- \caption{Quadrant Transition of Framework 2010 - 2018} 
- \includegraphics[width=1.0\hsize]{img/frame2010-2018.eps} 
- \label{table1} 
-\end{table*}
 
 \subsection{(RQ2) How do magnet and sticky values change over time?} 
 
@@ -225,16 +231,25 @@ Figure~\ref{fig:2010} shows a quadrant plot of the magnet and sticky values ​�
 From 2010 to 2018, we calculated the probability of the tags moves quadrants from one year to the following year. For example, there were six Attractive tags in 2010. Of the six Attractive tags in 2010, five were Attractive the following year. Therefore, the transition probability from Attractive to Attractive for 2010 - 2011 is 5/6 or 83.3\%. 
 
 \noindent \textbf{Quantitative results:}
-Table~\ref{table2} shows that the proportion of the vertical axis is in the quadrant for 2010 - 2018, the horizontal axis is the year old. From the table, the ratio of tags is the highest for those that do not move the quadrants from the previous year to the following year in any programming language, framework, and environment. Since the tags have hardly changed from any quadrant to 2, once the tags have become popular to a certain extent, the users of the tags have not significantly reduced. This shows that once tags have become less popular, it may continue to be unpopular.
+Table~\ref{table2} shows that the proportion of the vertical axis is in the quadrant for 2010 - 2018, the horizontal axis is the year old. From the table, the ratio of tags is almost the highest for those that do not move the quadrants from the previous year to the following year in any programm{}ing language, framework, and environment. Since the tags have hardly changed from any quadrant to 2, once the tags have become popular to a certain extent, the users of the tags have not significantly reduced. This shows that once tags have become less popular, it may continue to be unpopular.
 
 \noindent \textbf{Manual analysis:}
-Table~\ref{table1} shows the transition of each tag quadrant in the framework, revealing how the tags move in the quadrant. Xamarin is an interesting example. Xamarin~\cite{reynolds2014xamarin} is an API for Android and iOS developed with C\#. Thus, it is difficult to develop an application without having knowledge of both applications. Developing Android and iOS apps in Windows and Visual Studio requires a lot of programming knowledge and is not good for beginners. When Xamarin was launched, it attracted the attention of many developers owing to its efficiency. However, when beginners ask questions on sites such as SO, its popularity gradually declines owing to its application difficulty for beginners.
+Table~\ref{table1} shows the transition of each tag quadrant in the framework, revealing how the tags move in the quadrant. From this, you can see that Visual Studio\cite{johnson2012professional} and Xcode\cite{tisato1984xcode} have been attractive for a long time. Visual Studio is an integrated development environment for Windows and Xcode is an integrated development environment for Apple. Since these are the first IDEs that beginners will touch in their respective environments, it is likely that new users will be asked questions by SO. In addition, we can see that Jupyter\cite{perkel2018jupyter}, PyCharm\cite{islam2015mastering} and RStudio\cite{allaire2012rstudio} have gained popularity as opposed to the decrease in popularity of Sublime Text\cite{peleg2013mastering} and IPython\cite{perez2007ipython}. We think the reason is that the popularity of Python has increased in recent years and that Jupyter has made IPython available in multiple languages.
+% これから、あなたたちはVisual StudioやXcodeは長い間attractiveであることがわかります。
+% Visual StudioはWindowsのための統合開発環境でXcodeはAppleのための統合開発環境です。
+% これらはそれぞれの環境で初心者が最初に触れるであろうIDEであるため、新規ユーザたちのSOでの質問が絶えないのだと考えられます。
+% 加えて、我々はSublime TextやIPythonの人気の減少と対照的にJupyterやPyCharmやRStudioに人気が出てきたこともわかります。
+% 近年Pythonの人気が上昇していることやIPythonを多言語で利用できるようにしたものがJupyterであることなどが理由だと我々は思います。
 
-Similarly, React~\cite{staff2016react} is a Facebook JavaScript library that builds the web application user interface efficiently. React was first launched on Facebook’s news feed in 2011 and on Instagram in 2012. It was an open source at the JSConf US on May 2013. Social networking services (SNSs)~\cite{ellison2013sociality} such as Facebook and Twitter became popular around 2015 – 2016 when React changed from Terminal to Fluctuating. Therefore, it seems that the popularity of the Framework changed based on its application on the popular SNSs.
+% Xamarin is an interesting example. Xamarin~\cite{reynolds2014xamarin} is an API for Android and iOS developed with C\#. Thus, it is difficult to develop an application without having knowledge of both applications. Developing Android and iOS apps in Windows and Visual Studio requires a lot of programming knowledge and is not good for beginners. When Xamarin was launched, it attracted the attention of many developers owing to its efficiency. However, when beginners ask questions on sites such as SO, its popularity gradually declines owing to its application difficulty for beginners.
+
+% Similarly, React~\cite{staff2016react} is a Facebook JavaScript library that builds the web application user interface efficiently. React was first launched on Facebook’s news feed in 2011 and on Instagram in 2012. It was an open source at the JSConf US on May 2013. Social networking services (SNSs)~\cite{ellison2013sociality} such as Facebook and Twitter became popular around 2015 – 2016 when React changed from Terminal to Fluctuating. Therefore, it seems that the popularity of the Framework changed based on its application on the popular SNSs.
 
 
 \noindent \textbf{Summary:}
-If tags were the popular tool, their popularity would decline if they were difficult to use. Even if they were not a popular tool and they turn out to be an efficient tool, they will be popular among developers.
+Since there are many beginners asking questions on SO, IDE tags for beginners tend to be attractive. Also, with the emergence of easier-to-use tools, the popularity of what were once attractive decrease, and the popularity of new, easy-to-use tools increase.
+% SOで質問する人はそれにおいて初心者が多いため、初心者向けのIDEのタグがattractiveになる傾向がある。またより使いやすいツールが登場すると、かつてAttractiveだったものの人気が減少し、新しく使い勝手の良いものの人気が上昇する。
+% If tags were the popular tool, their popularity would decline if they were difficult to use. Even if they were not a popular tool and they turn out to be an efficient tool, they will be popular among developers.
 
 % \begin{oframed}
 %\emph{Table~\ref{table1} shows that even if it was a tool that was initially popular, its popularity would decline if it was difficult to use. Even if it was a tool that was not as popular as it was born, It turns out that as the content using the tool becomes popular, the tool also becomes popular. Table~\ref{table2} shows that it is difficult for tags to make large changes in quadrants.}
