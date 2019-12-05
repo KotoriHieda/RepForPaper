@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2019.1.8)  6 DEC 2019 08:36
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2019.1.8)  6 DEC 2019 08:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -568,48 +568,36 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/it' in size <5> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 16.
 
 -- Lines per column: 56 (exact).
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 66.
-LaTeX Font Info:    Try loading font information for U+txsya on input line 66.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsya.fd
-File: utxsya.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 66.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyb.fd
-File: utxsyb.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for U+txmia on input line 66.
+LaTeX Warning: No \author given.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxmia.fd
-File: utxmia.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 66.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyc.fd
-File: utxsyc.fd 2000/12/15 v3.1
-)
+LaTeX Warning: No \author given.
+
+
+LaTeX Warning: No \author given.
+
 
 LaTeX Font Warning: Font shape `JT1/mc/m/sc' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 77.
+(Font)              using `JT1/mc/m/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/sc' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 77.
+(Font)              using `JY1/mc/m/n' instead on input line 59.
 
 
 LaTeX Font Warning: Font shape `JT1/gt/m/it' undefined
-(Font)              using `JT1/gt/m/n' instead on input line 79.
+(Font)              using `JT1/gt/m/n' instead on input line 61.
 
 
 LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
-(Font)              using `JY1/gt/m/n' instead on input line 79.
+(Font)              using `JY1/gt/m/n' instead on input line 61.
 
-[1
+File: img/fig11.eps Graphic file (type eps)
+<img/fig11.eps> [1
 
 
 ]
-File: img/fig11.eps Graphic file (type eps)
- <img/fig11.eps>
 File: img/ff2.eps Graphic file (type eps)
  <img/ff2.eps>
 File: img/2010allnew.eps Graphic file (type eps)
@@ -620,9 +608,32 @@ File: img/AFSTnew.eps Graphic file (type eps)
 
 <img/AFSTnew.eps>
 
-LaTeX Warning: Float too large for page by 52.99306pt on input line 178.
+LaTeX Warning: Float too large for page by 52.99306pt on input line 160.
 
 [2]
+LaTeX Font Info:    Try loading font information for U+txsya on input line 180.
+
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 180.
+
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txmia on input line 180.
+
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 180.
+
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
 Missing character: There is no ^^e2 in font txr!
 Missing character: There is no ^^80 in font txr!
 Missing character: There is no ^^8b in font txr!
@@ -630,16 +641,15 @@ Missing character: There is no ^^e2 in font txr!
 Missing character: There is no ^^80 in font txr!
 Missing character: There is no ^^8b in font txr!
 
-Underfull \hbox (badness 2762) in paragraph at lines 199--200
+Underfull \hbox (badness 2762) in paragraph at lines 181--182
 []\OT1/txr/m/n/10 frameworks ( .NET Frame-work, An-gu-lar, Cor-dova,
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 200--201
+Underfull \hbox (badness 1448) in paragraph at lines 182--183
 \OT1/txr/m/n/10 Text-Mate, Vim, Vi-sual Stu-dio, Vi-sual Stu-dio Code,
  []
 
-[3]
 Missing character: There is no ^^e2 in font txr!
 Missing character: There is no ^^80 in font txr!
 Missing character: There is no ^^8b in font txr!
@@ -648,7 +658,7 @@ Missing character: There is no ^^80 in font txr!
 Missing character: There is no ^^8b in font txr!
 Missing character: There is no ^^c2 in font txr!
 Missing character: There is no ^^a0 in font txr!
- (./conference_101719.bbl
+[3] (./conference_101719.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 25--28
 []\OT1/txr/m/n/8 C. for Com-mu-nity and C. E. Eco-nomic De-vel-op-ment
  []
@@ -688,12 +698,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 4220 strings out of 493653
- 59252 string characters out of 6148875
- 122127 words of memory out of 5000000
- 7741 multiletter control sequences out of 15000+600000
- 80955 words of font info for 211 fonts, out of 8000000 for 9000
+ 4189 strings out of 493653
+ 58743 string characters out of 6148875
+ 121127 words of memory out of 5000000
+ 7710 multiletter control sequences out of 15000+600000
+ 71756 words of font info for 181 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 28i,11n,35p,1129b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,8n,35p,1129b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on conference_101719.dvi (5 pages, 27296 bytes).
+Output written on conference_101719.dvi (5 pages, 26268 bytes).
