@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2019.1.8)  5 DEC 2019 10:12
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2019.1.8)  6 DEC 2019 08:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -620,7 +620,7 @@ File: img/AFSTnew.eps Graphic file (type eps)
 
 <img/AFSTnew.eps>
 
-LaTeX Warning: Float too large for page by 52.99306pt on input line 180.
+LaTeX Warning: Float too large for page by 52.99306pt on input line 178.
 
 [2]
 Missing character: There is no ^^e2 in font txr!
@@ -630,15 +630,16 @@ Missing character: There is no ^^e2 in font txr!
 Missing character: There is no ^^80 in font txr!
 Missing character: There is no ^^8b in font txr!
 
-Underfull \hbox (badness 2762) in paragraph at lines 200--201
+Underfull \hbox (badness 2762) in paragraph at lines 199--200
 []\OT1/txr/m/n/10 frameworks ( .NET Frame-work, An-gu-lar, Cor-dova,
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 201--202
+Underfull \hbox (badness 1448) in paragraph at lines 200--201
 \OT1/txr/m/n/10 Text-Mate, Vim, Vi-sual Stu-dio, Vi-sual Stu-dio Code,
  []
 
+[3]
 Missing character: There is no ^^e2 in font txr!
 Missing character: There is no ^^80 in font txr!
 Missing character: There is no ^^8b in font txr!
@@ -647,7 +648,7 @@ Missing character: There is no ^^80 in font txr!
 Missing character: There is no ^^8b in font txr!
 Missing character: There is no ^^c2 in font txr!
 Missing character: There is no ^^a0 in font txr!
-[3] (./conference_101719.bbl
+ (./conference_101719.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 25--28
 []\OT1/txr/m/n/8 C. for Com-mu-nity and C. E. Eco-nomic De-vel-op-ment
  []
@@ -693,6 +694,6 @@ Here is how much of TeX's memory you used:
  7741 multiletter control sequences out of 15000+600000
  80955 words of font info for 211 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 28i,11n,35p,1092b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,11n,35p,1129b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on conference_101719.dvi (5 pages, 26828 bytes).
+Output written on conference_101719.dvi (5 pages, 27296 bytes).
