@@ -21,10 +21,10 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{communityeconomic}
-C.~for Community and C.~E. Economic Development University~of
-  Wisconsin-Extension, ``Community \& economic development update,'' 2011,
-  \url{https://myemail.constantcontact.com/News-from-the-Center-for-Community---Economic-Development.html?soid=1104293309477\&aid=FnOfZtbhFgo}.
+\bibitem{cohn2009magnet}
+D.~Cohn, \emph{Magnet or sticky? A state-by-state typology}.\hskip 1em plus
+  0.5em minus 0.4em\relax Report of Social and Demographic Trends. Pew Research
+  Center, 2009.
 
 \bibitem{yamashita2016magnet}
 K.~Yamashita, Y.~Kamei, S.~McIntosh, A.~E. Hassan, and N.~Ubayashi, ``Magnet or
@@ -43,10 +43,6 @@ S.~Baltes, L.~Dumani, C.~Treude, and S.~Diehl, ``Sotorrent: Reconstructing and
   analyzing the evolution of stack overflow posts,'' in \emph{Proceedings of
   the 15th International Conference on Mining Software Repositories}.\hskip 1em
   plus 0.5em minus 0.4em\relax ACM, 2018, pp. 319--330.
-
-\bibitem{msr2019challenge}
-S.~Baltes, C.~Treude, and S.~Diehl, ``Sotorrent: Studying the origin,
-  evolution, and usage of stack overflow code snippets,'' 2019.
 
 \bibitem{johnson2012professional}
 B.~Johnson, \emph{Professional Visual Studio 2012}.\hskip 1em plus 0.5em minus

@@ -10,6 +10,8 @@
 \usepackage{xcolor}
 \usepackage[varg]{txfonts}%%!!
 \usepackage{url}
+\pagestyle{plain}
+
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
@@ -57,7 +59,7 @@ magnet, sticky, tag, user migration, OSS census
 
 % 1
 \section{Introduction}
-The Pew Research Center (PRC)~\cite{communityeconomic} is the U.S. fact finder that provides information on social problems and demographic trends that shape the United States and the world.  
+The Pew Research Center (PRC)~\cite{cohn2009magnet} is the U.S. fact finder that provides information on social problems and demographic trends that shape the United States and the world.  
 \emph{Magnet states} are defined as states where a high percentage of the population migrated from other states and \emph{sticky states} are states where a high percentage of adults have been living in that same state since birth. 
 Nevada is a \emph{magnet states} because  86\% of the population migrated from other states. It is possible to find the movement of American citizens by studying this demographic trend.
 
@@ -75,7 +77,7 @@ We find that in many cases, the sticky value is higher than the magnet value. In
 \noindent \textbf{(RQ2) How do magnet and sticky values change over time?}\par
 When the status of a tag changes in four types, there may have been some change or evolution in that tag or another tag related to that tag.
 \section{Definition of Magnet and Sticky} \label{magnet}
-This section describes how we measure the appeal and adhesion of users on different topics. Following the Pew Research Center (PRC) definition~\cite{communityeconomic}, we use the magnet and sticky metrics to illustrate the migratory trends of U.S. citizens. The PRC defines magnet states as states where a large proportion of adults are from other states and defines sticky states as state where a high share of the adults who were born there live there now. These definitions are for population studies where a single adult can only live in one state at a time, however, so these definitions are inapplicable to the topics discussed by the SO users as users can ask or answer questions on several topics at the same time. Therefore, we redefined magnet and sticky so that they can be applied in SO. 
+This section describes how we measure the appeal and adhesion of users on different topics. Following the Pew Research Center (PRC) definition~\cite{cohn2009magnet}, we use the magnet and sticky metrics to illustrate the migratory trends of U.S. citizens. The PRC defines magnet states as states where a large proportion of adults are from other states and defines sticky states as state where a high share of the adults who were born there live there now. These definitions are for population studies where a single adult can only live in one state at a time, however, so these definitions are inapplicable to the topics discussed by the SO users as users can ask or answer questions on several topics at the same time. Therefore, we redefined magnet and sticky so that they can be applied in SO. 
 
 \noindent
 \textbf{Magnet.} Magnet topics attract a large proportion of new users; thus, the magnet value is calculated as the percentage of new users who ask or answer questions during a year.
@@ -140,7 +142,7 @@ Figure~\ref{fig:example2} shows that question α has tags ``python'' and ``pytho
 
 
 \section{Dataset}
-We analyze the SO dataset (SOTorrent) provided by Sebastian Baltes et al.~\cite{msr2019challenge}. SOTorrent is an open dataset based on the official SO data dump. SOTorrent provides access to the version history of SO content at the level of whole posts and individual text and code blocks. It connects code snippets from SO posts to other platforms by aggregating URLs from surrounding text blocks and comments, and by collecting references from GitHub files to SO posts.
+We analyze the SO dataset (SOTorrent) provided by Sebastian Baltes et al.~\cite{baltes2018sotorrent}. SOTorrent is an open dataset based on the official SO data dump. SOTorrent provides access to the version history of SO content at the level of whole posts and individual text and code blocks. It connects code snippets from SO posts to other platforms by aggregating URLs from surrounding text blocks and comments, and by collecting references from GitHub files to SO posts.
 
 The dataset consists of 20 different data tables.
 However, we analyze the data of table \emph{Posts} which consists of approximately 42 million posts from SO and table \emph{Users} which contains approximately 9 million rows of User information from July 2008 to September 2018. For the purpose of this study, we looked at the users, tags and the date each question was posted in order to calculate magnet and sticky value. Moreover, we only considered users who ask or answer questions in SO. Those who only comment or like/dislike questions and answers were excluded to narrow down those who are really interested in the topic.
@@ -182,7 +184,7 @@ We did not analyze all the tags at once, but divided them into three categories 
 \item environment (Android Studio, Atom Editor, Eclipse, Emacs, IntelliJ, IPython, Jupyter, NetBeans, Notepad++, PhpStorm, PyCharm, RStudio, RubyMine, Sublime Text, TextMate, Vim, Visual Studio, Visual Studio Code, Xcode)
 \end{itemize}
 
-We chose these tags based on SO's survey of over 100,000 developers in 2018~\footnote{\url{https://insights.stackoverflow.com/survey/2018}}. We focused on tags used by more than 5\% of developers who answered the questionnaire. 
+We chose these tags based on SO's survey of over 100,000 developers in 2018.~\footnote{\url{https://insights.stackoverflow.com/survey/2018}} We focused on tags used by more than 5\% of developers who answered the questionnaire. 
 
 %The year when StackOverflow released these data is May 2008. Since the sticky value is calculated from the difference between the previous year and the current year, the distribution chart of magnet and sticky value according to three categories in 2010 is shown as the first year for which yearly data of sticky value can be obtained.
 

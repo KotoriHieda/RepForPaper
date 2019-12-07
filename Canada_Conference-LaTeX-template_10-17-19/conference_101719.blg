@@ -8,61 +8,59 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: mining.bib
-Repeated entry---line 317 of file mining.bib
+Repeated entry---line 324 of file mining.bib
  : @article{baltes2018sotorrent
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 356 of file mining.bib
+Repeated entry---line 364 of file mining.bib
  : @inproceedings{baltes2018sotorrent
  :                                   ,
 I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in communityeconomic
-Warning--empty booktitle in msr2019challenge
 
 Done.
-You've used 12 entries,
+You've used 11 entries,
             4087 wiz_defined-function locations,
-            892 strings with 9277 characters,
-and the built_in function-call counts, 7687 in all, are:
-= -- 610
-> -- 151
+            888 strings with 8944 characters,
+and the built_in function-call counts, 7166 in all, are:
+= -- 572
+> -- 133
 < -- 59
-+ -- 82
-- -- 25
-* -- 355
-:= -- 1201
-add.period$ -- 26
-call.type$ -- 12
-change.case$ -- 10
++ -- 74
+- -- 21
+* -- 327
+:= -- 1119
+add.period$ -- 24
+call.type$ -- 11
+change.case$ -- 7
 chr.to.int$ -- 132
-cite$ -- 14
-duplicate$ -- 561
-empty$ -- 671
-format.name$ -- 32
-if$ -- 1780
+cite$ -- 11
+duplicate$ -- 513
+empty$ -- 629
+format.name$ -- 26
+if$ -- 1666
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 94
-newline$ -- 59
-num.names$ -- 12
-pop$ -- 224
+int.to.str$ -- 11
+missing$ -- 84
+newline$ -- 56
+num.names$ -- 11
+pop$ -- 193
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 606
+skip$ -- 569
 stack$ -- 0
-substring$ -- 319
-swap$ -- 424
+substring$ -- 315
+swap$ -- 400
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 12
-warning$ -- 2
-while$ -- 36
-width$ -- 14
-write$ -- 129
+type$ -- 11
+warning$ -- 0
+while$ -- 35
+width$ -- 13
+write$ -- 121
 is.kanji.str$ -- 0
 (There were 2 error messages)
