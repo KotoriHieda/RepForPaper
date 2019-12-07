@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex conference_101719"] 1575717766 "conference_101719.aux" "conference_101719.bbl" "conference_101719" 1575720054
+["bibtex conference_101719"] 1575717766 "conference_101719.aux" "conference_101719.bbl" "conference_101719" 1575720151
   "/usr/local/texlive/2017/texmf-dist/bibtex/bst/IEEEtran/IEEEtran.bst" 1480098433 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
   "conference_101719.aux" 1575720000 2375 beb5d97f767d8c738d9f88c0d8d20dd0 ""
   "mining.bib" 1575717762 12155 941e005257563f8a9c7ad61899e242d3 ""
   (generated)
-  "conference_101719.blg"
   "conference_101719.bbl"
-["dvipdf"] 1575720001 "conference_101719.dvi" "conference_101719.pdf" "conference_101719" 1575720054
+  "conference_101719.blg"
+["dvipdf"] 1575720001 "conference_101719.dvi" "conference_101719.pdf" "conference_101719" 1575720151
   "conference_101719.dvi" 1575720000 25848 6e3d3301a42ba741de435ba43b45d734 "latex"
   (generated)
   "conference_101719.pdf"
-["latex"] 1575720000 "conference_101719.tex" "conference_101719.dvi" "conference_101719" 1575720054
+["latex"] 1575720000 "conference_101719.tex" "conference_101719.dvi" "conference_101719" 1575720151
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/times/ptmbi7t.tfm" 1480098689 2228 e564491c42a4540b5ebb710a75ff306c ""
@@ -94,6 +94,6 @@
   "img/fig11.eps" 1575719815 60610 50f7bea29a7d20cc6f451b113bbb7f3a ""
   "img/transitionnew.eps" 1574327523 96739 f54fece8539ecfeb85bc9ab01daeae85 ""
   (generated)
-  "conference_101719.dvi"
-  "conference_101719.aux"
   "conference_101719.log"
+  "conference_101719.aux"
+  "conference_101719.dvi"
